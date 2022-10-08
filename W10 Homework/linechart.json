@@ -1,0 +1,45 @@
+{
+    "data": {"url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/W10%20Homework/World_Wide-Unicorn-Company-List-heatmap.csv"},
+    "width": 800,
+    "height": 500,
+    "encoding": {
+        "color": {
+            "condition": {
+              "param": "hover",
+              "field":"Industry",
+              "type":"nominal"
+            },
+            "value": "grey"
+          },
+          "opacity": {
+            "condition": {
+              "param": "hover",
+              "value": 1
+            },
+            "value": 0.2
+          }
+        },
+    "layer": [{
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal", "title": "Year"},
+        "y": {"aggregate" : "count", "type": "quantitative", "title": "Number of Unicorn Startups"}
+      }
+    },
+    {
+        "params": [{
+          "name": "hover",
+          "value": [{"Industry": "Artificial Intelligence"}],
+          "select": {
+            "type": "point",
+            "fields": ["Industry"],
+            "on": "mouseover"
+          }
+        }],
+        "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+      }, {
+        "mark": "line"
+      }
+    ],
+    "config": {"view": {"stroke": null}}
+}
