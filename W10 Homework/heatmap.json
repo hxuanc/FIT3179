@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 350,
+    "height": 500,
+        "data": {
+            "url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/W10%20Homework/World_Wide-Unicorn-Company-List-heatmap.csv"
+        }, 
+        "params" : [
+            {
+                "name": "Region_selection",
+                "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Americas",
+                    "Europe",
+                    "Africa",
+                    "Asia",
+                    "Oceania"
+                ],
+                "labels": [
+                    "Show All",
+                    "Americas",
+                    "Europe",
+                    "Africa",
+                    "Asia",
+                    "Oceania"
+                ],
+                "name": "Region Selection: "
+                }
+            }
+        ],
+        "title": "Date Joined of Unicorn Startup Companies",
+        "config": {
+            "view": {
+                "strokeWidth" : 0,
+                "step": 13
+            },
+            "axis": {
+                "grid" : true,
+                "gridColor" : "white",
+                "gridOpacity" : 0.6,
+                "tickBand" : "extent"
+            }
+        },
+        "layer" :[
+            {
+                "mark": {"type" : "rect", "fill" : "whitesmoke"}
+        },
+        {
+            "transform": [
+                {"filter":"Region_selection == null || datum.Region == Region_selection"}
+            ],
+            "mark": "rect",
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "timeUnit": "year",
+                    "type": "ordinal",
+                    "title": "Year",
+                    "axis": {
+                        "format":"%Y"
+                    }
+                },
+                "y": {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country"
+                },
+                "color": {
+                    "aggregate": "count",
+                    "type": "quantitative",
+                    "legend": {
+                        "title": null
+                    },
+                    "scale" : {"scheme": "tealblues"}
+                    
+                },
+                "tooltip" : [ { "field" : "Year" , "timeUnit": "year", "type" : "ordinal", "title":"Year"}, 
+                                {"field": "Country", "type" : "nominal", "title":"Country"},
+                                {"aggregate":"count", "type" : "quantitative", "title" : "Number of Company Joined"} ]
+            }
+        }
+    ]
+}
+  
