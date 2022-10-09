@@ -3,12 +3,15 @@ body *{
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 800;
 }
 
-body {
-    background-color: lightgray;
+#center {
+    text-align: center;
 }
+
+
+
 
 .page {
     width: 1000px;
@@ -25,6 +28,9 @@ body {
 .description 
 h1 {
     margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h2 {
@@ -36,7 +42,7 @@ p{
     font-size: 18px;
     text-align: justify;
     padding-left: 20px;
-    padding-right: 20px;
+
 }
 
 .description-right {
@@ -54,3 +60,4 @@ p{
 .small-font {
     font-size: 14px;
 }
+

@@ -1,0 +1,64 @@
+{
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 700,
+    "height": 500,
+    "title" : "Unicorn Startups in Different Industry",
+    "data": {"url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/W10%20Homework/World_Wide-Unicorn-Company-List-linechart.csv"},
+    "layer": [
+        {"params" : [{
+            "name" : "industry_highlight",
+            "select" : {"type" : "point", "fields": ["Industry"]},
+            "bind" : "legend"
+        },
+        {
+            "name": "hover",
+            "value": [{"Industry": "Fintech"}],
+            "select": {
+              "type": "point",
+              "fields": ["Industry"],
+              "on": "mouseover"
+            }
+          }
+        ],
+"mark" : {"type" : "line", "point" :true},
+"encoding": {
+  "x": {"field": "Year", "timeUnit": "year", "type": "temporal", "title": "Year"},
+  "y": {"field" : "Count", "type": "quantitative", "title": "Number of Companies"},
+  "color": {
+    "condition": {
+      "param": "industry_highlight" ,
+      "field":"Industry",
+      "type":"nominal"
+    },
+    "value": "grey"
+  },
+  "opacity": {
+    "condition": {
+      "param": "industry_highlight",
+      "value": 1
+    },
+    "value": 0.2
+  },
+  "tooltip" : [ { "field" : "Year" , "timeUnit": "year", "type" : "ordinal", "title":"Year"}, 
+  {"field": "Industry", "type" : "nominal", "title":"Industry"},
+  {"field":"Count", "type" : "quantitative", "title" : "Number of Company Joined"} ]
+  }}
+  ,
+  {
+          "encoding": {
+            "x": {"aggregate": "max", "field": "Year", "type": "temporal"},
+            "y": {"aggregate": {"argmax": "Year"}, "field": "Count", "type": "quantitative"}
+          },
+          "layer": [{
+            "mark": {"type": "text", "align": "left", "dx": 4},
+            "encoding": {"text": {"field":"Industry", "type": "nominal"},
+        "color": {"value":"black"},
+    "opacity":{
+        "condition":{"test" : "datum['Industry'] == 'Fintech' || datum['Industry'] == 'Internet software & services' || datum['Industry'] == 'Health'",
+    "value" : 1},
+        "value":0
+    }}
+          }]
+        }],
+          "config": {"view": {"stroke": null}}
+        }
