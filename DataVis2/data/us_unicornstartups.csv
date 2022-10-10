@@ -1,0 +1,133 @@
+City,Count,country,lat,lng
+Alameda,1,United States,37.767,-122.2672
+Ambler,1,United States,40.1564,-75.2215
+Arlington,1,United States,38.8786,-77.1011
+Atlanta,7,United States,33.7627,-84.4224
+Austin,10,United States,30.3004,-97.7522
+Bellevue,5,United States,47.5951,-122.1535
+Bellingham,1,United States,48.7543,-122.4687
+Bend,1,United States,44.0562,-121.3087
+Berkeley,3,United States,37.8723,-122.276
+Berkeley Heights,1,United States,40.6764,-74.4244
+Bethesda,1,United States,38.9866,-77.1188
+Boca Raton,2,United States,26.3752,-80.108
+Boise,1,United States,43.6007,-116.2312
+Boston,21,United States,42.3188,-71.0846
+Boulder,2,United States,40.0249,-105.2523
+Brisbane,1,United States,37.6807661,-122.3999715
+Brooklyn,3,United States,40.650002,-73.949997
+Brookline,1,United States,42.3243,-71.1408
+Burlingame,3,United States,37.586,-122.3669
+Burlington,2,United States,42.5022,-71.2027
+Cambridge,9,United States,42.3759,-71.1185
+Carlsbad,1,United States,33.1247,-117.2837
+Carson City,1,United States,39.1512,-119.7474
+Cary,1,United States,35.782,-78.8191
+Cedar Park,1,United States,30.5106,-97.8196
+Charlotte,2,United States,35.208,-80.8304
+Chatham,1,United States,41.6698,-69.9755
+Chicago,17,United States,41.8373,-87.6862
+Cincinnati,1,United States,39.1413,-84.5061
+Colorado Springs,1,United States,38.8674,-104.7606
+Columbia,1,United States,34.0376,-80.9037
+Columbus,2,United States,39.9862,-82.985
+Culver City,3,United States,34.0058,-118.3968
+Washington DC,2,United States,38.89511,-77.03637
+Dallas,4,United States,32.7936,-96.7662
+Denver,7,United States,39.7621,-104.8759
+Detroit,1,United States,42.3834,-83.1024
+Draper,1,United States,40.4957,-111.8605
+Dublin,1,United States,40.1112,-83.1454
+Eden Prairie,1,United States,44.8488,-93.4595
+El Segundo,5,United States,33.9169,-118.4021
+Encinitas,1,United States,33.049,-117.2613
+Englewood,1,United States,39.6468,-104.9942
+Englewood Cliffs,1,United States,40.8822,-73.9466
+Fort Lee,1,United States,40.8509,-73.9712
+Fort Mill,1,United States,35.0062,-80.9388
+Foster City,1,United States,37.5553,-122.2659
+Framingham,1,United States,42.3085,-71.4368
+Fremont,2,United States,37.5265,-121.9852
+Glendale,2,United States,34.1818,-118.2468
+Goleta,1,United States,34.436,-119.8596
+Greenwood Village,1,United States,39.6152,-104.913
+Hanover,1,United States,43.7155,-72.1911
+Hawthorne,2,United States,33.9146,-118.3476
+Hayward,2,United States,37.6328,-122.0772
+Herndon,1,United States,38.9699,-77.3867
+Hoboken,2,United States,40.7453,-74.0279
+Houston,3,United States,29.7863,-95.3889
+Inglewood,1,United States,33.9566,-118.3444
+Irvine,3,United States,33.6772,-117.7738
+Irving,1,United States,32.8584,-96.9702
+Islandia,1,United States,40.79224,-73.13826
+Jacksonville,1,United States,30.3322,-81.6749
+Jersey City,1,United States,40.7161,-74.0682
+Kirkland,1,United States,47.6974,-122.2054
+Las Vegas,1,United States,36.2333,-115.2654
+Leawood,1,United States,38.9076,-94.6258
+Lehi,4,United States,40.4136,-111.8726
+Lincoln,1,United States,40.809,-96.6788
+Long Beach,2,United States,33.7981,-118.1675
+Los Altos,3,United States,37.3685,-122.0966
+Los Angeles,9,United States,34.1139,-118.4068
+Louisville,1,United States,38.1663,-85.6485
+Madison,1,United States,43.0826,-89.3931
+Marina del Rey,1,United States,33.9765,-118.4486
+McLean,2,United States,38.9436,-77.1943
+Menlo Park,2,United States,37.4686,-122.1672
+Miami,6,United States,25.7839,-80.2102
+Milpitas,1,United States,37.4339,-121.8921
+Morrisville,1,United States,35.8367,-78.8348
+Mountain View,17,United States,37.4,-122.0796
+Nashville,2,United States,36.1715,-86.7843
+New York,109,United States,40.6943,-73.9249
+Northbrook,1,United States,42.1292,-87.8353
+Oakland,5,United States,37.7903,-122.2165
+Orlando,1,United States,28.4772,-81.3369
+Palo Alto,20,United States,37.3913,-122.1468
+Pennsauken,1,United States,39.9649,-75.0563
+Pflugerville,1,United States,30.452,-97.6022
+Philadelphia,2,United States,40.0077,-75.1339
+Pittsburgh,1,United States,40.4396,-79.9762
+Plantation,1,United States,26.126,-80.2617
+Pleasanton,1,United States,37.6663,-121.8805
+Portland,1,United States,45.5372,-122.65
+Portola Valley,1,United States,37.3841,-122.2352
+Princeton,1,United States,40.3563,-74.6693
+Quincy,1,United States,42.2516,-71.0183
+Raleigh,1,United States,35.8325,-78.6435
+Redmond,1,United States,47.6762,-122.1169
+Redwood City,12,United States,37.5026,-122.2252
+Roseville,1,United States,38.7703,-121.3196
+Sacramento,1,United States,38.5667,-121.4683
+Salt Lake City,1,United States,40.7777,-111.9306
+San Carlos,1,United States,37.4982,-122.268
+San Diego,6,United States,32.8312,-117.1225
+San Francisco,167,United States,37.7562,-122.443
+San Jose,8,United States,37.3019,-121.8486
+San Mateo,11,United States,37.5521,-122.3122
+San Ramon,1,United States,37.7625,-121.9365
+Santa Barbara,2,United States,34.4285,-119.7202
+Santa Clara,6,United States,37.3645,-121.968
+Santa Cruz,1,United States,36.9789,-122.0346
+Santa Monica,3,United States,34.0232,-118.4813
+Sarasota,1,United States,27.3386,-82.5431
+Scottsdale,4,United States,33.6872,-111.8651
+Seattle,8,United States,47.6211,-122.3244
+Sherman Oaks,1,United States,34.149956,-118.448891
+Somerville,1,United States,42.3908,-71.1013
+South Burlington,1,United States,44.4622,-73.2203
+South Jordan,1,United States,40.557,-111.9782
+South San Francisco,2,United States,37.6536,-122.4197
+Sunnyvale,8,United States,37.3836,-122.0256
+Tampa,1,United States,27.9942,-82.4451
+Torrance,1,United States,33.8346,-118.3417
+Tustin,1,United States,33.7309,-117.8106
+Venice,1,United States,27.1163,-82.4135
+Walpole,1,United States,42.1465,-71.2555
+Waltham,3,United States,42.3889,-71.2423
+Washington,4,United States,38.9047,-77.0163
+Westerville,1,United States,40.1241,-82.9209
+Wilmington,2,United States,34.21,-77.8866
+Zephyr Cove,1,United States,39.006821,-119.948364

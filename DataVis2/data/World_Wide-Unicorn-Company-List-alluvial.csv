@@ -1,0 +1,111 @@
+Country,Industry,Count
+Brazil,Artificial Intelligence,1
+Brazil,E-commerce & direct-to-consumer,5
+Brazil,Fintech,6
+Brazil,Mobile & telecommunications,1
+Brazil,Other,1
+Brazil,"Supply chain, logistics, & delivery",3
+Canada,Artificial Intelligence,2
+Canada,Cybersecurity,3
+Canada,E-commerce & direct-to-consumer,1
+Canada,Edtech,1
+Canada,Fintech,3
+Canada,Internet software & services,6
+Canada,Other,1
+Canada,"Supply chain, logistics, & delivery",1
+Canada,Travel,1
+China,Artificial Intelligence,19
+China,Auto & transportation,18
+China,Consumer & retail,8
+China,Cybersecurity,1
+China,Data management & analytics,2
+China,E-commerce & direct-to-consumer,28
+China,Edtech,12
+China,Fintech,8
+China,Hardware,18
+China,Health,11
+China,Internet software & services,15
+China,Mobile & telecommunications,13
+China,Other,6
+China,"Supply chain, logistics, & delivery",11
+China,Travel,3
+France,Artificial Intelligence,2
+France,Auto & transportation,1
+France,E-commerce & direct-to-consumer,5
+France,Fintech,5
+France,Hardware,2
+France,Health,2
+France,Internet software & services,2
+France,Other,3
+France,"Supply chain, logistics, & delivery",1
+Germany,Auto & transportation,2
+Germany,Consumer & retail,1
+Germany,Data management & analytics,1
+Germany,E-commerce & direct-to-consumer,5
+Germany,Fintech,6
+Germany,Hardware,1
+Germany,Health,1
+Germany,Internet software & services,4
+Germany,Other,2
+Germany,"Supply chain, logistics, & delivery",3
+Germany,Travel,3
+India,Auto & transportation,2
+India,Data management & analytics,1
+India,E-commerce & direct-to-consumer,17
+India,Edtech,7
+India,Fintech,16
+India,Health,2
+India,Internet software & services,13
+India,Mobile & telecommunications,1
+India,Other,2
+India,"Supply chain, logistics, & delivery",6
+India,Travel,1
+Israel,Artificial Intelligence,3
+Israel,Cybersecurity,7
+Israel,Data management & analytics,1
+Israel,Edtech,1
+Israel,Fintech,1
+Israel,Hardware,2
+Israel,Health,1
+Israel,Internet software & services,2
+Israel,Mobile & telecommunications,1
+Israel,Other,1
+Israel,"Supply chain, logistics, & delivery",2
+South Korea,Auto & transportation,1
+South Korea,Consumer & retail,1
+South Korea,E-commerce & direct-to-consumer,4
+South Korea,Fintech,2
+South Korea,Health,1
+South Korea,Internet software & services,1
+South Korea,Mobile & telecommunications,2
+South Korea,Other,1
+South Korea,"Supply chain, logistics, & delivery",1
+South Korea,Travel,1
+United Kingdom,Artificial Intelligence,2
+United Kingdom,Auto & transportation,1
+United Kingdom,Consumer & retail,1
+United Kingdom,Data management & analytics,1
+United Kingdom,E-commerce & direct-to-consumer,2
+United Kingdom,Edtech,1
+United Kingdom,Fintech,27
+United Kingdom,Hardware,1
+United Kingdom,Health,2
+United Kingdom,Internet software & services,2
+United Kingdom,Mobile & telecommunications,1
+United Kingdom,Other,4
+United Kingdom,"Supply chain, logistics, & delivery",1
+United States,Artificial Intelligence,52
+United States,Auto & transportation,10
+United States,Consumer & retail,13
+United States,Cybersecurity,45
+United States,Data management & analytics,35
+United States,E-commerce & direct-to-consumer,26
+United States,Edtech,9
+United States,Fintech,127
+United States,Hardware,13
+United States,Health,69
+United States,Internet software & services,161
+United States,Mobile & telecommunications,12
+United States,Other,34
+United States,"Supply chain, logistics, & delivery",25
+United States,Travel,1
