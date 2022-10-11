@@ -1,16 +1,125 @@
-Industry,Valuation ($B)
-Artificial Intelligence,334.17
-Auto & transportation,124.97
-Consumer & retail,80.84
-Cybersecurity,147.0
-Data management & analytics,139.79
-E-commerce & direct-to-consumer,391.51
-Edtech,98.07
-Fintech,890.75
-Hardware,105.52
-Health,231.66
-Internet software & services,654.93
-Mobile & telecommunications,84.88
-Other,293.72
-"Supply chain, logistics, & delivery",212.47
-Travel,38.0
+Industry,Year,Valuation ($B)
+Artificial Intelligence,2012,2.0
+Artificial Intelligence,2015,2.3
+Artificial Intelligence,2016,1.0
+Artificial Intelligence,2017,149.1
+Artificial Intelligence,2018,33.03
+Artificial Intelligence,2019,56.3
+Artificial Intelligence,2020,12.13
+Artificial Intelligence,2021,53.910000000000004
+Artificial Intelligence,2022,24.4
+Auto & transportation,2014,7.5
+Auto & transportation,2015,2.0
+Auto & transportation,2016,1.5
+Auto & transportation,2018,29.9
+Auto & transportation,2019,32.18
+Auto & transportation,2020,22.19
+Auto & transportation,2021,17.88
+Auto & transportation,2022,11.82
+Consumer & retail,2012,2.0
+Consumer & retail,2016,3.7800000000000002
+Consumer & retail,2017,16.83
+Consumer & retail,2018,13.93
+Consumer & retail,2019,5.65
+Consumer & retail,2020,15.0
+Consumer & retail,2021,22.580000000000002
+Consumer & retail,2022,1.07
+Cybersecurity,2013,1.0
+Cybersecurity,2015,11.75
+Cybersecurity,2018,7.5
+Cybersecurity,2019,9.26
+Cybersecurity,2020,22.4
+Cybersecurity,2021,72.64
+Cybersecurity,2022,22.45
+Data management & analytics,2013,1.5
+Data management & analytics,2017,5.5
+Data management & analytics,2018,16.32
+Data management & analytics,2019,46.3
+Data management & analytics,2020,13.6
+Data management & analytics,2021,49.07
+Data management & analytics,2022,7.5
+E-commerce & direct-to-consumer,2012,27.0
+E-commerce & direct-to-consumer,2014,7.4
+E-commerce & direct-to-consumer,2015,13.69
+E-commerce & direct-to-consumer,2016,40.37
+E-commerce & direct-to-consumer,2017,6.0
+E-commerce & direct-to-consumer,2018,109.1
+E-commerce & direct-to-consumer,2019,33.69
+E-commerce & direct-to-consumer,2020,56.35
+E-commerce & direct-to-consumer,2021,80.1
+E-commerce & direct-to-consumer,2022,17.81
+Edtech,2015,2.0
+Edtech,2016,7.5
+Edtech,2017,40.18
+Edtech,2018,4.0
+Edtech,2019,1.0
+Edtech,2020,11.24
+Edtech,2021,27.0
+Edtech,2022,5.15
+Fintech,2011,6.7
+Fintech,2014,95.0
+Fintech,2015,11.0
+Fintech,2017,13.88
+Fintech,2018,85.76
+Fintech,2019,142.47
+Fintech,2020,72.63
+Fintech,2021,372.53
+Fintech,2022,90.78
+Hardware,2014,2.0
+Hardware,2015,25.0
+Hardware,2016,15.68
+Hardware,2018,23.45
+Hardware,2020,2.32
+Hardware,2021,26.14
+Hardware,2022,10.93
+Health,2014,3.8
+Health,2015,8.8
+Health,2016,1.0
+Health,2017,10.82
+Health,2018,42.62
+Health,2019,10.440000000000001
+Health,2020,36.38
+Health,2021,89.67
+Health,2022,28.13
+Internet software & services,2011,5.7
+Internet software & services,2013,7.5
+Internet software & services,2015,4.93
+Internet software & services,2016,1.0
+Internet software & services,2017,15.15
+Internet software & services,2018,109.53
+Internet software & services,2019,53.65
+Internet software & services,2020,88.63
+Internet software & services,2021,278.86
+Internet software & services,2022,89.98
+Mobile & telecommunications,2014,6.1
+Mobile & telecommunications,2015,6.73
+Mobile & telecommunications,2016,2.8
+Mobile & telecommunications,2017,13.92
+Mobile & telecommunications,2018,7.0
+Mobile & telecommunications,2019,8.49
+Mobile & telecommunications,2020,22.51
+Mobile & telecommunications,2021,11.5
+Mobile & telecommunications,2022,5.83
+Other,2012,127.0
+Other,2015,2.15
+Other,2016,4.34
+Other,2017,5.57
+Other,2018,35.02
+Other,2019,31.24
+Other,2020,24.11
+Other,2021,40.3
+Other,2022,23.990000000000002
+"Supply chain, logistics, & delivery",2014,39.0
+"Supply chain, logistics, & delivery",2016,1.2
+"Supply chain, logistics, & delivery",2017,1.0
+"Supply chain, logistics, & delivery",2018,36.699999999999996
+"Supply chain, logistics, & delivery",2019,21.49
+"Supply chain, logistics, & delivery",2020,18.7
+"Supply chain, logistics, & delivery",2021,72.83
+"Supply chain, logistics, & delivery",2022,21.55
+Travel,2015,1.5
+Travel,2017,4.5
+Travel,2018,18.6
+Travel,2019,4.1
+Travel,2021,8.0
+Travel,2022,1.3
