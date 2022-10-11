@@ -1,125 +1,1063 @@
-Industry,Year,Valuation ($B)
-Artificial Intelligence,2012,2.0
-Artificial Intelligence,2015,2.3
-Artificial Intelligence,2016,1.0
-Artificial Intelligence,2017,149.1
-Artificial Intelligence,2018,33.03
-Artificial Intelligence,2019,56.3
-Artificial Intelligence,2020,12.13
-Artificial Intelligence,2021,53.910000000000004
-Artificial Intelligence,2022,24.4
-Auto & transportation,2014,7.5
-Auto & transportation,2015,2.0
-Auto & transportation,2016,1.5
-Auto & transportation,2018,29.9
-Auto & transportation,2019,32.18
-Auto & transportation,2020,22.19
-Auto & transportation,2021,17.88
-Auto & transportation,2022,11.82
-Consumer & retail,2012,2.0
-Consumer & retail,2016,3.7800000000000002
-Consumer & retail,2017,16.83
-Consumer & retail,2018,13.93
-Consumer & retail,2019,5.65
-Consumer & retail,2020,15.0
-Consumer & retail,2021,22.580000000000002
-Consumer & retail,2022,1.07
-Cybersecurity,2013,1.0
-Cybersecurity,2015,11.75
-Cybersecurity,2018,7.5
-Cybersecurity,2019,9.26
-Cybersecurity,2020,22.4
-Cybersecurity,2021,72.64
-Cybersecurity,2022,22.45
-Data management & analytics,2013,1.5
-Data management & analytics,2017,5.5
-Data management & analytics,2018,16.32
-Data management & analytics,2019,46.3
-Data management & analytics,2020,13.6
-Data management & analytics,2021,49.07
-Data management & analytics,2022,7.5
-E-commerce & direct-to-consumer,2012,27.0
-E-commerce & direct-to-consumer,2014,7.4
-E-commerce & direct-to-consumer,2015,13.69
-E-commerce & direct-to-consumer,2016,40.37
-E-commerce & direct-to-consumer,2017,6.0
-E-commerce & direct-to-consumer,2018,109.1
-E-commerce & direct-to-consumer,2019,33.69
-E-commerce & direct-to-consumer,2020,56.35
-E-commerce & direct-to-consumer,2021,80.1
-E-commerce & direct-to-consumer,2022,17.81
-Edtech,2015,2.0
-Edtech,2016,7.5
-Edtech,2017,40.18
-Edtech,2018,4.0
-Edtech,2019,1.0
-Edtech,2020,11.24
-Edtech,2021,27.0
-Edtech,2022,5.15
-Fintech,2011,6.7
-Fintech,2014,95.0
-Fintech,2015,11.0
-Fintech,2017,13.88
-Fintech,2018,85.76
-Fintech,2019,142.47
-Fintech,2020,72.63
-Fintech,2021,372.53
-Fintech,2022,90.78
-Hardware,2014,2.0
-Hardware,2015,25.0
-Hardware,2016,15.68
-Hardware,2018,23.45
-Hardware,2020,2.32
-Hardware,2021,26.14
-Hardware,2022,10.93
-Health,2014,3.8
-Health,2015,8.8
-Health,2016,1.0
-Health,2017,10.82
-Health,2018,42.62
-Health,2019,10.440000000000001
-Health,2020,36.38
-Health,2021,89.67
-Health,2022,28.13
-Internet software & services,2011,5.7
-Internet software & services,2013,7.5
-Internet software & services,2015,4.93
-Internet software & services,2016,1.0
-Internet software & services,2017,15.15
-Internet software & services,2018,109.53
-Internet software & services,2019,53.65
-Internet software & services,2020,88.63
-Internet software & services,2021,278.86
-Internet software & services,2022,89.98
-Mobile & telecommunications,2014,6.1
-Mobile & telecommunications,2015,6.73
-Mobile & telecommunications,2016,2.8
-Mobile & telecommunications,2017,13.92
-Mobile & telecommunications,2018,7.0
-Mobile & telecommunications,2019,8.49
-Mobile & telecommunications,2020,22.51
-Mobile & telecommunications,2021,11.5
-Mobile & telecommunications,2022,5.83
-Other,2012,127.0
-Other,2015,2.15
-Other,2016,4.34
-Other,2017,5.57
-Other,2018,35.02
-Other,2019,31.24
-Other,2020,24.11
-Other,2021,40.3
-Other,2022,23.990000000000002
-"Supply chain, logistics, & delivery",2014,39.0
-"Supply chain, logistics, & delivery",2016,1.2
-"Supply chain, logistics, & delivery",2017,1.0
-"Supply chain, logistics, & delivery",2018,36.699999999999996
-"Supply chain, logistics, & delivery",2019,21.49
-"Supply chain, logistics, & delivery",2020,18.7
-"Supply chain, logistics, & delivery",2021,72.83
-"Supply chain, logistics, & delivery",2022,21.55
-Travel,2015,1.5
-Travel,2017,4.5
-Travel,2018,18.6
-Travel,2019,4.1
-Travel,2021,8.0
-Travel,2022,1.3
+Industry,Year,Date Joined,Valuation ($B)
+Artificial Intelligence,2012,2012-12-17,2.0
+Artificial Intelligence,2015,2015-10-27,2.3
+Artificial Intelligence,2016,2016-12-04,1.0
+Artificial Intelligence,2017,2017-04-14,1.6
+Artificial Intelligence,2017,2017-07-04,140.0
+Artificial Intelligence,2017,2017-09-26,3.5
+Artificial Intelligence,2017,2017-10-31,4.0
+Artificial Intelligence,2018,2018-02-07,6.8
+Artificial Intelligence,2018,2018-02-20,1.03
+Artificial Intelligence,2018,2018-04-06,4.1
+Artificial Intelligence,2018,2018-04-16,1.35
+Artificial Intelligence,2018,2018-05-17,2.0
+Artificial Intelligence,2018,2018-07-19,1.31
+Artificial Intelligence,2018,2018-08-03,2.17
+Artificial Intelligence,2018,2018-10-17,1.0
+Artificial Intelligence,2018,2018-11-07,8.5
+Artificial Intelligence,2018,2018-12-18,2.77
+Artificial Intelligence,2018,2018-12-19,2.0
+Artificial Intelligence,2019,2019-01-22,1.0
+Artificial Intelligence,2019,2019-02-27,5.0
+Artificial Intelligence,2019,2019-03-22,1.0
+Artificial Intelligence,2019,2019-03-27,1.19
+Artificial Intelligence,2019,2019-04-12,4.6
+Artificial Intelligence,2019,2019-05-08,7.3
+Artificial Intelligence,2019,2019-06-18,1.0
+Artificial Intelligence,2019,2019-07-17,5.0
+Artificial Intelligence,2019,2019-07-22,4.92
+Artificial Intelligence,2019,2019-07-29,6.3
+Artificial Intelligence,2019,2019-07-31,1.8
+Artificial Intelligence,2019,2019-10-30,12.59
+Artificial Intelligence,2019,2019-11-09,4.6
+Artificial Intelligence,2020,2020-01-08,2.18
+Artificial Intelligence,2020,2020-04-28,2.7
+Artificial Intelligence,2020,2020-12-08,7.25
+Artificial Intelligence,2021,2021-01-14,3.7
+Artificial Intelligence,2021,2021-02-17,1.0
+Artificial Intelligence,2021,2021-03-08,2.6
+Artificial Intelligence,2021,2021-03-24,1.0
+Artificial Intelligence,2021,2021-03-30,5.2
+Artificial Intelligence,2021,2021-04-13,1.0
+Artificial Intelligence,2021,2021-04-14,1.0
+Artificial Intelligence,2021,2021-04-21,2.0
+Artificial Intelligence,2021,2021-04-22,1.0
+Artificial Intelligence,2021,2021-04-29,2.7
+Artificial Intelligence,2021,2021-05-05,1.0
+Artificial Intelligence,2021,2021-05-08,1.0
+Artificial Intelligence,2021,2021-05-19,1.6
+Artificial Intelligence,2021,2021-06-05,1.0
+Artificial Intelligence,2021,2021-06-16,1.0
+Artificial Intelligence,2021,2021-06-24,1.2
+Artificial Intelligence,2021,2021-06-30,2.1
+Artificial Intelligence,2021,2021-07-05,1.2
+Artificial Intelligence,2021,2021-07-11,1.7
+Artificial Intelligence,2021,2021-07-12,1.0
+Artificial Intelligence,2021,2021-07-13,1.0
+Artificial Intelligence,2021,2021-08-06,2.0
+Artificial Intelligence,2021,2021-08-16,1.46
+Artificial Intelligence,2021,2021-08-24,1.0
+Artificial Intelligence,2021,2021-09-08,1.0
+Artificial Intelligence,2021,2021-09-16,1.15
+Artificial Intelligence,2021,2021-09-22,2.0
+Artificial Intelligence,2021,2021-09-23,2.0
+Artificial Intelligence,2021,2021-10-13,1.0
+Artificial Intelligence,2021,2021-10-26,1.0
+Artificial Intelligence,2021,2021-11-08,2.0
+Artificial Intelligence,2021,2021-11-18,1.0
+Artificial Intelligence,2021,2021-12-10,1.0
+Artificial Intelligence,2021,2021-12-15,1.3
+Artificial Intelligence,2021,2021-12-22,1.0
+Artificial Intelligence,2022,2022-01-02,1.0
+Artificial Intelligence,2022,2022-01-25,1.4
+Artificial Intelligence,2022,2022-01-26,1.5
+Artificial Intelligence,2022,2022-02-16,2.5
+Artificial Intelligence,2022,2022-02-23,2.2
+Artificial Intelligence,2022,2022-03-17,1.6
+Artificial Intelligence,2022,2022-03-21,1.0
+Artificial Intelligence,2022,2022-03-29,1.9
+Artificial Intelligence,2022,2022-05-24,1.6
+Artificial Intelligence,2022,2022-06-14,1.1
+Artificial Intelligence,2022,2022-06-15,1.7
+Artificial Intelligence,2022,2022-07-04,1.2
+Artificial Intelligence,2022,2022-09-05,3.5
+Artificial Intelligence,2022,2022-12-01,2.2
+Auto & transportation,2014,2014-10-27,7.5
+Auto & transportation,2015,2015-09-16,2.0
+Auto & transportation,2016,2016-05-24,1.5
+Auto & transportation,2018,2018-01-06,5.0
+Auto & transportation,2018,2018-01-17,1.6
+Auto & transportation,2018,2018-01-22,1.4
+Auto & transportation,2018,2018-02-04,3.35
+Auto & transportation,2018,2018-04-16,1.78
+Auto & transportation,2018,2018-04-20,2.5
+Auto & transportation,2018,2018-05-29,8.4
+Auto & transportation,2018,2018-09-13,1.0
+Auto & transportation,2018,2018-09-15,1.16
+Auto & transportation,2018,2018-11-20,1.01
+Auto & transportation,2018,2018-12-19,1.5
+Auto & transportation,2018,2018-12-20,1.2
+Auto & transportation,2019,2019-02-07,5.0
+Auto & transportation,2019,2019-03-06,1.48
+Auto & transportation,2019,2019-04-15,1.85
+Auto & transportation,2019,2019-07-18,3.0
+Auto & transportation,2019,2019-08-03,5.0
+Auto & transportation,2019,2019-11-02,8.6
+Auto & transportation,2019,2019-12-07,7.25
+Auto & transportation,2020,2020-03-30,3.3
+Auto & transportation,2020,2020-08-06,6.51
+Auto & transportation,2020,2020-10-16,1.07
+Auto & transportation,2020,2020-10-22,3.6
+Auto & transportation,2020,2020-10-26,3.31
+Auto & transportation,2020,2020-12-23,4.4
+Auto & transportation,2021,2021-01-02,1.23
+Auto & transportation,2021,2021-03-06,11.4
+Auto & transportation,2021,2021-05-19,2.41
+Auto & transportation,2021,2021-10-28,1.4
+Auto & transportation,2021,2021-12-31,1.44
+Auto & transportation,2022,2022-01-06,2.0
+Auto & transportation,2022,2022-02-22,3.95
+Auto & transportation,2022,2022-04-03,1.87
+Auto & transportation,2022,2022-04-25,1.0
+Auto & transportation,2022,2022-04-29,2.0
+Auto & transportation,2022,2022-06-15,1.0
+Consumer & retail,2012,2012-02-13,2.0
+Consumer & retail,2016,2016-01-01,1.19
+Consumer & retail,2016,2016-08-11,1.59
+Consumer & retail,2016,2016-12-21,1.0
+Consumer & retail,2017,2017-06-04,1.0
+Consumer & retail,2017,2017-10-04,1.24
+Consumer & retail,2017,2017-11-30,2.59
+Consumer & retail,2017,2017-12-20,12.0
+Consumer & retail,2018,2018-01-11,2.25
+Consumer & retail,2018,2018-02-16,1.7
+Consumer & retail,2018,2018-07-16,1.0
+Consumer & retail,2018,2018-09-20,1.5
+Consumer & retail,2018,2018-10-22,1.7
+Consumer & retail,2018,2018-12-02,5.78
+Consumer & retail,2019,2019-03-19,1.65
+Consumer & retail,2019,2019-05-13,4.0
+Consumer & retail,2020,2020-01-03,15.0
+Consumer & retail,2021,2021-03-17,2.0
+Consumer & retail,2021,2021-06-05,1.0
+Consumer & retail,2021,2021-06-16,2.2
+Consumer & retail,2021,2021-07-19,1.0
+Consumer & retail,2021,2021-07-26,1.5
+Consumer & retail,2021,2021-08-05,10.88
+Consumer & retail,2021,2021-08-11,1.0
+Consumer & retail,2021,2021-09-24,1.0
+Consumer & retail,2021,2021-12-21,1.0
+Consumer & retail,2021,2021-12-27,1.0
+Consumer & retail,2022,2022-06-13,1.07
+Cybersecurity,2013,2013-10-10,1.0
+Cybersecurity,2015,2015-03-31,9.0
+Cybersecurity,2015,2015-04-14,2.75
+Cybersecurity,2018,2018-11-13,7.5
+Cybersecurity,2019,2019-03-27,2.0
+Cybersecurity,2019,2019-04-25,1.32
+Cybersecurity,2019,2019-06-08,2.44
+Cybersecurity,2019,2019-09-18,3.5
+Cybersecurity,2020,2020-01-21,8.6
+Cybersecurity,2020,2020-01-29,1.6
+Cybersecurity,2020,2020-10-12,1.15
+Cybersecurity,2020,2020-10-22,4.3
+Cybersecurity,2020,2020-11-17,2.5
+Cybersecurity,2020,2020-11-19,3.0
+Cybersecurity,2020,2020-12-16,1.25
+Cybersecurity,2021,2021-01-03,2.6
+Cybersecurity,2021,2021-01-06,2.4
+Cybersecurity,2021,2021-01-12,1.0
+Cybersecurity,2021,2021-02-12,1.4
+Cybersecurity,2021,2021-03-16,4.5
+Cybersecurity,2021,2021-03-17,11.0
+Cybersecurity,2021,2021-03-19,1.5
+Cybersecurity,2021,2021-03-23,1.8
+Cybersecurity,2021,2021-04-28,2.5
+Cybersecurity,2021,2021-06-17,1.0
+Cybersecurity,2021,2021-06-22,2.74
+Cybersecurity,2021,2021-07-01,8.3
+Cybersecurity,2021,2021-07-06,1.75
+Cybersecurity,2021,2021-07-12,1.25
+Cybersecurity,2021,2021-08-07,6.8
+Cybersecurity,2021,2021-08-11,1.0
+Cybersecurity,2021,2021-09-06,2.5
+Cybersecurity,2021,2021-09-11,1.0
+Cybersecurity,2021,2021-09-13,2.4
+Cybersecurity,2021,2021-09-15,1.5
+Cybersecurity,2021,2021-10-03,1.0
+Cybersecurity,2021,2021-10-28,1.7
+Cybersecurity,2021,2021-11-17,8.0
+Cybersecurity,2021,2021-11-18,2.0
+Cybersecurity,2021,2021-12-15,1.0
+Cybersecurity,2022,2022-02-06,1.0
+Cybersecurity,2022,2022-02-22,3.2
+Cybersecurity,2022,2022-02-23,1.0
+Cybersecurity,2022,2022-03-05,1.1
+Cybersecurity,2022,2022-03-29,1.0
+Cybersecurity,2022,2022-03-31,2.0
+Cybersecurity,2022,2022-06-06,1.0
+Cybersecurity,2022,2022-07-02,1.45
+Cybersecurity,2022,2022-07-04,1.6
+Cybersecurity,2022,2022-07-06,1.6
+Cybersecurity,2022,2022-10-02,1.4
+Cybersecurity,2022,2022-10-05,4.0
+Cybersecurity,2022,2022-11-01,1.0
+Cybersecurity,2022,2022-11-05,1.1
+Data management & analytics,2013,2013-07-02,1.5
+Data management & analytics,2017,2017-04-28,4.0
+Data management & analytics,2017,2017-08-06,1.5
+Data management & analytics,2018,2018-06-26,11.0
+Data management & analytics,2018,2018-09-07,1.62
+Data management & analytics,2018,2018-11-06,3.7
+Data management & analytics,2019,2019-01-29,5.25
+Data management & analytics,2019,2019-05-02,38.0
+Data management & analytics,2019,2019-06-20,2.0
+Data management & analytics,2019,2019-10-21,1.05
+Data management & analytics,2020,2020-04-16,3.7
+Data management & analytics,2020,2020-06-30,5.6
+Data management & analytics,2020,2020-07-16,1.2
+Data management & analytics,2020,2020-08-25,2.0
+Data management & analytics,2020,2020-09-01,1.1
+Data management & analytics,2021,2021-01-12,1.0
+Data management & analytics,2021,2021-01-28,3.35
+Data management & analytics,2021,2021-04-11,1.7
+Data management & analytics,2021,2021-04-13,5.0
+Data management & analytics,2021,2021-05-13,1.0
+Data management & analytics,2021,2021-05-19,1.5
+Data management & analytics,2021,2021-05-26,1.6
+Data management & analytics,2021,2021-06-01,5.35
+Data management & analytics,2021,2021-06-17,2.0
+Data management & analytics,2021,2021-06-30,4.2
+Data management & analytics,2021,2021-07-01,1.0
+Data management & analytics,2021,2021-07-10,1.0
+Data management & analytics,2021,2021-08-02,1.1
+Data management & analytics,2021,2021-08-25,2.5
+Data management & analytics,2021,2021-09-12,1.15
+Data management & analytics,2021,2021-09-13,3.8200000000000003
+Data management & analytics,2021,2021-09-15,1.5
+Data management & analytics,2021,2021-10-26,2.0
+Data management & analytics,2021,2021-10-28,3.3
+Data management & analytics,2021,2021-12-01,5.0
+Data management & analytics,2022,2022-01-26,2.4
+Data management & analytics,2022,2022-02-02,1.0
+Data management & analytics,2022,2022-05-01,1.0
+Data management & analytics,2022,2022-05-17,1.1
+Data management & analytics,2022,2022-08-06,1.0
+Data management & analytics,2022,2022-12-07,1.0
+E-commerce & direct-to-consumer,2012,2012-06-06,27.0
+E-commerce & direct-to-consumer,2014,2014-05-21,1.0
+E-commerce & direct-to-consumer,2014,2014-08-29,1.0
+E-commerce & direct-to-consumer,2014,2014-09-30,4.0
+E-commerce & direct-to-consumer,2014,2014-10-23,1.4
+E-commerce & direct-to-consumer,2015,2015-01-22,1.0
+E-commerce & direct-to-consumer,2015,2015-06-03,1.0
+E-commerce & direct-to-consumer,2015,2015-07-10,1.1
+E-commerce & direct-to-consumer,2015,2015-07-30,1.05
+E-commerce & direct-to-consumer,2015,2015-08-09,1.0
+E-commerce & direct-to-consumer,2015,2015-09-03,2.0
+E-commerce & direct-to-consumer,2015,2015-09-09,2.34
+E-commerce & direct-to-consumer,2015,2015-09-29,3.2
+E-commerce & direct-to-consumer,2015,2015-12-10,1.0
+E-commerce & direct-to-consumer,2016,2016-03-31,20.0
+E-commerce & direct-to-consumer,2016,2016-04-13,1.5
+E-commerce & direct-to-consumer,2016,2016-04-14,1.1
+E-commerce & direct-to-consumer,2016,2016-05-09,2.0
+E-commerce & direct-to-consumer,2016,2016-07-04,5.77
+E-commerce & direct-to-consumer,2016,2016-12-03,10.0
+E-commerce & direct-to-consumer,2017,2017-01-11,3.0
+E-commerce & direct-to-consumer,2017,2017-02-08,1.0
+E-commerce & direct-to-consumer,2017,2017-04-18,1.0
+E-commerce & direct-to-consumer,2017,2017-06-29,1.0
+E-commerce & direct-to-consumer,2018,2018-01-17,6.6
+E-commerce & direct-to-consumer,2018,2018-03-07,100.0
+E-commerce & direct-to-consumer,2018,2018-05-29,1.5
+E-commerce & direct-to-consumer,2018,2018-10-18,1.0
+E-commerce & direct-to-consumer,2019,2019-01-02,1.9
+E-commerce & direct-to-consumer,2019,2019-01-03,1.52
+E-commerce & direct-to-consumer,2019,2019-05-15,1.4
+E-commerce & direct-to-consumer,2019,2019-06-26,3.8
+E-commerce & direct-to-consumer,2019,2019-06-27,4.25
+E-commerce & direct-to-consumer,2019,2019-09-09,5.1
+E-commerce & direct-to-consumer,2019,2019-10-23,3.0
+E-commerce & direct-to-consumer,2019,2019-11-03,1.49
+E-commerce & direct-to-consumer,2019,2019-11-11,2.2
+E-commerce & direct-to-consumer,2019,2019-11-27,4.53
+E-commerce & direct-to-consumer,2019,2019-12-20,4.5
+E-commerce & direct-to-consumer,2020,2020-01-10,8.7
+E-commerce & direct-to-consumer,2020,2020-03-01,2.9
+E-commerce & direct-to-consumer,2020,2020-03-17,1.0
+E-commerce & direct-to-consumer,2020,2020-07-02,2.1
+E-commerce & direct-to-consumer,2020,2020-07-15,10.0
+E-commerce & direct-to-consumer,2020,2020-07-22,12.0
+E-commerce & direct-to-consumer,2020,2020-08-14,1.45
+E-commerce & direct-to-consumer,2020,2020-09-16,1.0
+E-commerce & direct-to-consumer,2020,2020-09-22,3.5
+E-commerce & direct-to-consumer,2020,2020-09-23,3.7
+E-commerce & direct-to-consumer,2020,2020-09-24,2.0
+E-commerce & direct-to-consumer,2020,2020-10-28,3.6
+E-commerce & direct-to-consumer,2020,2020-11-24,3.3
+E-commerce & direct-to-consumer,2020,2020-12-11,1.1
+E-commerce & direct-to-consumer,2021,2021-01-03,1.7
+E-commerce & direct-to-consumer,2021,2021-01-09,1.0
+E-commerce & direct-to-consumer,2021,2021-01-12,2.85
+E-commerce & direct-to-consumer,2021,2021-02-06,1.2
+E-commerce & direct-to-consumer,2021,2021-02-09,1.0
+E-commerce & direct-to-consumer,2021,2021-02-25,2.5
+E-commerce & direct-to-consumer,2021,2021-03-16,3.75
+E-commerce & direct-to-consumer,2021,2021-03-31,4.1
+E-commerce & direct-to-consumer,2021,2021-04-27,2.1
+E-commerce & direct-to-consumer,2021,2021-05-07,2.6
+E-commerce & direct-to-consumer,2021,2021-05-10,1.0
+E-commerce & direct-to-consumer,2021,2021-05-17,2.6
+E-commerce & direct-to-consumer,2021,2021-05-18,5.7
+E-commerce & direct-to-consumer,2021,2021-06-12,1.0
+E-commerce & direct-to-consumer,2021,2021-06-14,1.0
+E-commerce & direct-to-consumer,2021,2021-07-01,1.0
+E-commerce & direct-to-consumer,2021,2021-07-10,1.4
+E-commerce & direct-to-consumer,2021,2021-07-31,5.0
+E-commerce & direct-to-consumer,2021,2021-08-06,4.15
+E-commerce & direct-to-consumer,2021,2021-08-16,1.0
+E-commerce & direct-to-consumer,2021,2021-08-17,3.1
+E-commerce & direct-to-consumer,2021,2021-09-04,3.2
+E-commerce & direct-to-consumer,2021,2021-09-12,2.2
+E-commerce & direct-to-consumer,2021,2021-09-14,1.2
+E-commerce & direct-to-consumer,2021,2021-09-15,1.1
+E-commerce & direct-to-consumer,2021,2021-09-16,3.7
+E-commerce & direct-to-consumer,2021,2021-10-02,1.0
+E-commerce & direct-to-consumer,2021,2021-10-11,1.2
+E-commerce & direct-to-consumer,2021,2021-10-13,5.2
+E-commerce & direct-to-consumer,2021,2021-11-16,2.1
+E-commerce & direct-to-consumer,2021,2021-11-24,1.75
+E-commerce & direct-to-consumer,2021,2021-11-29,1.33
+E-commerce & direct-to-consumer,2021,2021-12-04,1.0
+E-commerce & direct-to-consumer,2021,2021-12-07,1.7
+E-commerce & direct-to-consumer,2021,2021-12-15,1.5
+E-commerce & direct-to-consumer,2021,2021-12-28,2.17
+E-commerce & direct-to-consumer,2022,2022-01-24,1.33
+E-commerce & direct-to-consumer,2022,2022-01-27,1.7
+E-commerce & direct-to-consumer,2022,2022-02-15,2.0
+E-commerce & direct-to-consumer,2022,2022-02-24,1.5
+E-commerce & direct-to-consumer,2022,2022-06-05,1.9
+E-commerce & direct-to-consumer,2022,2022-07-04,1.0
+E-commerce & direct-to-consumer,2022,2022-08-02,1.2
+E-commerce & direct-to-consumer,2022,2022-09-05,1.4
+E-commerce & direct-to-consumer,2022,2022-09-06,1.1
+E-commerce & direct-to-consumer,2022,2022-10-01,3.48
+E-commerce & direct-to-consumer,2022,2022-12-04,1.2
+Edtech,2015,2015-10-29,1.0
+Edtech,2015,2015-11-18,1.0
+Edtech,2016,2016-03-05,3.0
+Edtech,2016,2016-04-08,4.5
+Edtech,2017,2017-05-31,15.5
+Edtech,2017,2017-07-20,1.18
+Edtech,2017,2017-07-25,22.0
+Edtech,2017,2017-10-30,1.5
+Edtech,2018,2018-05-24,1.0
+Edtech,2018,2018-07-18,3.0
+Edtech,2019,2019-05-30,1.0
+Edtech,2020,2020-02-09,3.44
+Edtech,2020,2020-05-05,3.2
+Edtech,2020,2020-05-13,1.0
+Edtech,2020,2020-12-02,3.6
+Edtech,2021,2021-01-07,3.75
+Edtech,2021,2021-02-25,1.0
+Edtech,2021,2021-03-25,1.2
+Edtech,2021,2021-03-29,1.0
+Edtech,2021,2021-04-13,1.4
+Edtech,2021,2021-04-14,3.0
+Edtech,2021,2021-05-13,2.75
+Edtech,2021,2021-06-21,1.0
+Edtech,2021,2021-06-22,3.5
+Edtech,2021,2021-07-02,1.95
+Edtech,2021,2021-09-08,2.25
+Edtech,2021,2021-09-29,1.0
+Edtech,2021,2021-12-08,3.2
+Edtech,2022,2022-01-13,1.1
+Edtech,2022,2022-07-06,1.1
+Edtech,2022,2022-07-21,1.25
+Edtech,2022,2022-08-06,1.7
+Fintech,2011,2011-12-12,6.7
+Fintech,2014,2014-01-23,95.0
+Fintech,2015,2015-04-21,1.0
+Fintech,2015,2015-12-18,10.0
+Fintech,2017,2017-02-21,2.41
+Fintech,2017,2017-05-16,1.4
+Fintech,2017,2017-08-11,1.0
+Fintech,2017,2017-11-24,3.0
+Fintech,2017,2017-11-27,1.07
+Fintech,2017,2017-12-10,5.0
+Fintech,2018,2018-04-26,33.0
+Fintech,2018,2018-05-10,12.3
+Fintech,2018,2018-05-15,3.0
+Fintech,2018,2018-05-30,2.7
+Fintech,2018,2018-07-16,4.0
+Fintech,2018,2018-09-12,5.48
+Fintech,2018,2018-10-10,1.0
+Fintech,2018,2018-10-31,4.5
+Fintech,2018,2018-11-12,13.5
+Fintech,2018,2018-12-02,6.28
+Fintech,2019,2019-02-05,40.0
+Fintech,2019,2019-03-12,8.75
+Fintech,2019,2019-03-25,7.05
+Fintech,2019,2019-05-03,29.5
+Fintech,2019,2019-05-21,1.1
+Fintech,2019,2019-06-05,9.8
+Fintech,2019,2019-06-08,1.0
+Fintech,2019,2019-06-17,1.5
+Fintech,2019,2019-06-25,2.92
+Fintech,2019,2019-07-08,1.0
+Fintech,2019,2019-07-10,4.0
+Fintech,2019,2019-07-16,8.5
+Fintech,2019,2019-08-22,1.0
+Fintech,2019,2019-10-01,9.23
+Fintech,2019,2019-10-16,1.0
+Fintech,2019,2019-12-16,1.12
+Fintech,2019,2019-12-20,15.0
+Fintech,2020,2020-01-05,2.41
+Fintech,2020,2020-01-07,6.5
+Fintech,2020,2020-01-24,5.0
+Fintech,2020,2020-02-12,5.05
+Fintech,2020,2020-06-10,10.3
+Fintech,2020,2020-07-01,3.1
+Fintech,2020,2020-07-15,2.4
+Fintech,2020,2020-08-09,6.5
+Fintech,2020,2020-09-24,2.3
+Fintech,2020,2020-10-11,6.0
+Fintech,2020,2020-11-10,7.5
+Fintech,2020,2020-11-23,8.6
+Fintech,2020,2020-12-18,4.8
+Fintech,2020,2020-12-21,2.17
+Fintech,2021,2021-01-06,3.4000000000000004
+Fintech,2021,2021-01-07,1.0
+Fintech,2021,2021-01-11,12.0
+Fintech,2021,2021-01-13,1.9
+Fintech,2021,2021-01-15,4.0
+Fintech,2021,2021-01-19,1.0
+Fintech,2021,2021-01-25,4.0
+Fintech,2021,2021-01-26,1.0
+Fintech,2021,2021-02-09,1.7
+Fintech,2021,2021-02-17,15.2
+Fintech,2021,2021-02-18,1.0
+Fintech,2021,2021-02-21,2.0
+Fintech,2021,2021-03-02,1.4
+Fintech,2021,2021-03-07,1.6
+Fintech,2021,2021-03-16,4.11
+Fintech,2021,2021-03-24,1.5
+Fintech,2021,2021-03-26,1.2
+Fintech,2021,2021-03-29,8.1
+Fintech,2021,2021-03-31,4.58
+Fintech,2021,2021-04-08,2.5
+Fintech,2021,2021-04-10,1.0
+Fintech,2021,2021-04-13,1.0
+Fintech,2021,2021-04-15,1.34
+Fintech,2021,2021-04-19,2.85
+Fintech,2021,2021-04-20,6.5
+Fintech,2021,2021-04-21,12.0
+Fintech,2021,2021-04-27,2.2
+Fintech,2021,2021-04-29,2.4
+Fintech,2021,2021-05-05,2.2
+Fintech,2021,2021-05-10,1.0
+Fintech,2021,2021-05-17,1.0
+Fintech,2021,2021-05-18,3.56
+Fintech,2021,2021-05-19,2.0
+Fintech,2021,2021-05-20,6.460000000000001
+Fintech,2021,2021-05-24,2.7800000000000002
+Fintech,2021,2021-05-25,1.5
+Fintech,2021,2021-05-26,3.6
+Fintech,2021,2021-05-31,2.0
+Fintech,2021,2021-06-01,5.5
+Fintech,2021,2021-06-04,4.01
+Fintech,2021,2021-06-05,2.1
+Fintech,2021,2021-06-07,4.7
+Fintech,2021,2021-06-10,3.9
+Fintech,2021,2021-06-12,1.0
+Fintech,2021,2021-06-15,2.17
+Fintech,2021,2021-06-16,1.15
+Fintech,2021,2021-06-18,2.0
+Fintech,2021,2021-06-21,3.0
+Fintech,2021,2021-06-24,1.0
+Fintech,2021,2021-06-29,1.0
+Fintech,2021,2021-07-04,3.0
+Fintech,2021,2021-07-07,1.06
+Fintech,2021,2021-07-09,1.7
+Fintech,2021,2021-07-12,1.2
+Fintech,2021,2021-07-13,5.65
+Fintech,2021,2021-07-14,2.45
+Fintech,2021,2021-07-20,32.0
+Fintech,2021,2021-07-21,1.2
+Fintech,2021,2021-07-22,1.0
+Fintech,2021,2021-07-27,15.120000000000001
+Fintech,2021,2021-08-03,3.34
+Fintech,2021,2021-08-06,3.0
+Fintech,2021,2021-08-09,3.4
+Fintech,2021,2021-08-10,11.0
+Fintech,2021,2021-08-12,1.0
+Fintech,2021,2021-08-13,4.45
+Fintech,2021,2021-08-20,2.85
+Fintech,2021,2021-08-23,7.0
+Fintech,2021,2021-08-24,3.2
+Fintech,2021,2021-09-03,7.300000000000001
+Fintech,2021,2021-09-04,1.0
+Fintech,2021,2021-09-09,3.5
+Fintech,2021,2021-09-11,1.7
+Fintech,2021,2021-09-14,1.0
+Fintech,2021,2021-09-15,1.85
+Fintech,2021,2021-09-21,4.25
+Fintech,2021,2021-09-27,1.5
+Fintech,2021,2021-09-29,2.6
+Fintech,2021,2021-09-30,1.35
+Fintech,2021,2021-10-06,2.0
+Fintech,2021,2021-10-08,11.15
+Fintech,2021,2021-10-11,3.0
+Fintech,2021,2021-10-12,2.27
+Fintech,2021,2021-10-13,1.0
+Fintech,2021,2021-10-14,3.0
+Fintech,2021,2021-10-15,1.5
+Fintech,2021,2021-10-19,1.0
+Fintech,2021,2021-10-28,11.299999999999999
+Fintech,2021,2021-11-03,3.0
+Fintech,2021,2021-11-04,1.0
+Fintech,2021,2021-11-05,2.7
+Fintech,2021,2021-11-10,1.0
+Fintech,2021,2021-11-17,7.0
+Fintech,2021,2021-11-19,7.1
+Fintech,2021,2021-11-22,3.4
+Fintech,2021,2021-11-28,1.8
+Fintech,2021,2021-11-29,6.1
+Fintech,2021,2021-11-30,2.2
+Fintech,2021,2021-12-05,1.73
+Fintech,2021,2021-12-07,3.0
+Fintech,2021,2021-12-10,3.5
+Fintech,2021,2021-12-15,3.0
+Fintech,2022,2022-01-02,1.6
+Fintech,2022,2022-01-03,1.05
+Fintech,2022,2022-01-13,3.0
+Fintech,2022,2022-01-14,1.3
+Fintech,2022,2022-01-18,1.5
+Fintech,2022,2022-01-24,1.4
+Fintech,2022,2022-01-26,1.25
+Fintech,2022,2022-01-27,2.3
+Fintech,2022,2022-01-31,1.2
+Fintech,2022,2022-02-05,1.0
+Fintech,2022,2022-02-14,2.38
+Fintech,2022,2022-02-16,1.7
+Fintech,2022,2022-02-23,1.0
+Fintech,2022,2022-02-24,1.0
+Fintech,2022,2022-03-14,2.1
+Fintech,2022,2022-03-16,1.0
+Fintech,2022,2022-03-21,1.0
+Fintech,2022,2022-03-22,1.6
+Fintech,2022,2022-04-15,2.5
+Fintech,2022,2022-04-20,1.0
+Fintech,2022,2022-04-26,1.05
+Fintech,2022,2022-04-28,1.0
+Fintech,2022,2022-05-04,1.5
+Fintech,2022,2022-05-17,1.2
+Fintech,2022,2022-05-22,1.0
+Fintech,2022,2022-05-23,1.1
+Fintech,2022,2022-05-25,3.2
+Fintech,2022,2022-06-01,2.1
+Fintech,2022,2022-06-21,1.6
+Fintech,2022,2022-07-03,4.8
+Fintech,2022,2022-07-06,1.5
+Fintech,2022,2022-07-13,1.4
+Fintech,2022,2022-07-15,1.2
+Fintech,2022,2022-08-02,3.25
+Fintech,2022,2022-09-03,1.9
+Fintech,2022,2022-09-05,2.4
+Fintech,2022,2022-09-06,2.66
+Fintech,2022,2022-10-03,1.94
+Fintech,2022,2022-10-05,10.0
+Fintech,2022,2022-11-01,7.4
+Fintech,2022,2022-11-02,3.0
+Fintech,2022,2022-11-05,1.0
+Fintech,2022,2022-12-04,2.2
+Fintech,2022,2022-12-05,1.5
+Hardware,2014,2014-10-21,2.0
+Hardware,2015,2015-01-23,15.0
+Hardware,2015,2015-04-29,1.6
+Hardware,2015,2015-08-18,6.0
+Hardware,2015,2015-08-20,2.4
+Hardware,2016,2016-07-25,4.58
+Hardware,2016,2016-12-22,11.1
+Hardware,2018,2018-01-08,2.0
+Hardware,2018,2018-03-16,1.45
+Hardware,2018,2018-06-07,12.0
+Hardware,2018,2018-06-11,1.0
+Hardware,2018,2018-10-25,1.0
+Hardware,2018,2018-11-06,1.0
+Hardware,2018,2018-11-14,4.0
+Hardware,2018,2018-11-21,1.0
+Hardware,2020,2020-08-18,2.32
+Hardware,2021,2021-01-03,1.55
+Hardware,2021,2021-02-17,1.0
+Hardware,2021,2021-05-01,1.24
+Hardware,2021,2021-06-14,1.5
+Hardware,2021,2021-07-13,3.5
+Hardware,2021,2021-07-27,3.15
+Hardware,2021,2021-08-30,1.0
+Hardware,2021,2021-09-09,1.0
+Hardware,2021,2021-09-23,1.8
+Hardware,2021,2021-10-06,2.5
+Hardware,2021,2021-10-11,2.1500000000000004
+Hardware,2021,2021-11-11,1.02
+Hardware,2021,2021-12-16,4.73
+Hardware,2022,2022-01-17,2.0
+Hardware,2022,2022-02-04,1.26
+Hardware,2022,2022-02-18,1.57
+Hardware,2022,2022-03-15,1.26
+Hardware,2022,2022-03-16,2.5
+Hardware,2022,2022-06-06,1.0
+Hardware,2022,2022-06-23,1.34
+Health,2014,2014-01-04,3.8
+Health,2015,2015-08-20,1.8
+Health,2015,2015-09-22,7.0
+Health,2016,2016-01-28,1.0
+Health,2017,2017-04-12,1.3
+Health,2017,2017-06-24,3.52
+Health,2017,2017-09-15,5.0
+Health,2017,2017-10-05,1.0
+Health,2018,2018-02-26,4.0
+Health,2018,2018-03-21,8.1
+Health,2018,2018-05-07,1.0
+Health,2018,2018-06-08,12.0
+Health,2018,2018-07-31,3.92
+Health,2018,2018-10-04,1.0
+Health,2018,2018-10-16,12.6
+Health,2019,2019-03-19,6.4
+Health,2019,2019-05-31,1.04
+Health,2019,2019-09-17,3.0
+Health,2020,2020-01-12,4.0
+Health,2020,2020-01-30,1.0
+Health,2020,2020-02-12,2.0
+Health,2020,2020-03-12,1.3
+Health,2020,2020-05-22,3.3
+Health,2020,2020-06-03,1.3
+Health,2020,2020-06-17,1.0
+Health,2020,2020-07-27,7.0
+Health,2020,2020-08-25,5.85
+Health,2020,2020-08-26,2.62
+Health,2020,2020-09-30,1.31
+Health,2020,2020-10-12,5.7
+Health,2021,2021-01-03,1.24
+Health,2021,2021-01-19,3.4
+Health,2021,2021-02-06,1.0
+Health,2021,2021-02-19,3.2
+Health,2021,2021-03-03,1.7
+Health,2021,2021-03-16,1.6
+Health,2021,2021-03-22,1.0
+Health,2021,2021-03-30,1.1
+Health,2021,2021-04-01,4.6
+Health,2021,2021-04-11,1.4
+Health,2021,2021-04-14,1.0
+Health,2021,2021-04-27,2.0
+Health,2021,2021-04-28,1.0
+Health,2021,2021-05-24,3.7
+Health,2021,2021-06-01,6.2
+Health,2021,2021-06-05,1.43
+Health,2021,2021-06-10,1.15
+Health,2021,2021-06-15,1.35
+Health,2021,2021-07-06,1.0
+Health,2021,2021-07-12,3.0999999999999996
+Health,2021,2021-07-13,1.2
+Health,2021,2021-07-21,3.0
+Health,2021,2021-07-28,1.42
+Health,2021,2021-08-17,1.0
+Health,2021,2021-09-09,1.0
+Health,2021,2021-09-16,2.0
+Health,2021,2021-09-30,1.0
+Health,2021,2021-10-06,4.8
+Health,2021,2021-10-08,4.8
+Health,2021,2021-10-11,1.5
+Health,2021,2021-10-21,1.0
+Health,2021,2021-10-26,3.89
+Health,2021,2021-10-27,1.6
+Health,2021,2021-11-01,1.23
+Health,2021,2021-11-02,1.17
+Health,2021,2021-11-18,1.36
+Health,2021,2021-11-22,2.0
+Health,2021,2021-11-29,3.7
+Health,2021,2021-12-05,7.83
+Health,2021,2021-12-07,1.0
+Health,2021,2021-12-14,1.0
+Health,2022,2022-01-03,1.12
+Health,2022,2022-01-19,1.01
+Health,2022,2022-01-25,1.32
+Health,2022,2022-01-31,1.5
+Health,2022,2022-02-15,1.22
+Health,2022,2022-02-23,3.5
+Health,2022,2022-04-19,1.69
+Health,2022,2022-04-21,1.0
+Health,2022,2022-04-26,1.3
+Health,2022,2022-05-04,3.9499999999999997
+Health,2022,2022-06-01,3.2
+Health,2022,2022-06-04,2.1
+Health,2022,2022-06-14,1.4
+Health,2022,2022-07-18,1.2
+Health,2022,2022-08-06,1.0
+Health,2022,2022-11-01,1.62
+Internet software & services,2011,2011-02-04,5.7
+Internet software & services,2013,2013-05-27,7.5
+Internet software & services,2015,2015-06-16,1.61
+Internet software & services,2015,2015-07-22,1.32
+Internet software & services,2015,2015-12-08,1.0
+Internet software & services,2015,2015-12-10,1.0
+Internet software & services,2016,2016-07-06,1.0
+Internet software & services,2017,2017-01-11,1.9
+Internet software & services,2017,2017-01-12,1.25
+Internet software & services,2017,2017-04-21,2.0
+Internet software & services,2017,2017-07-31,10.0
+Internet software & services,2018,2018-03-10,10.0
+Internet software & services,2018,2018-03-27,1.28
+Internet software & services,2018,2018-04-20,15.0
+Internet software & services,2018,2018-05-06,9.5
+Internet software & services,2018,2018-08-01,40.0
+Internet software & services,2018,2018-08-04,1.27
+Internet software & services,2018,2018-08-05,4.2
+Internet software & services,2018,2018-09-04,2.0
+Internet software & services,2018,2018-09-18,1.08
+Internet software & services,2018,2018-10-07,1.0
+Internet software & services,2018,2018-11-14,9.5
+Internet software & services,2018,2018-11-15,11.7
+Internet software & services,2018,2018-12-18,3.0
+Internet software & services,2019,2019-04-16,4.4
+Internet software & services,2019,2019-06-02,2.0
+Internet software & services,2019,2019-06-27,1.45
+Internet software & services,2019,2019-07-05,1.0
+Internet software & services,2019,2019-09-04,8.0
+Internet software & services,2019,2019-09-19,4.6
+Internet software & services,2019,2019-09-30,2.9
+Internet software & services,2019,2019-10-10,13.0
+Internet software & services,2019,2019-10-17,2.6
+Internet software & services,2019,2019-10-25,2.0
+Internet software & services,2019,2019-11-07,5.1
+Internet software & services,2019,2019-11-13,4.4
+Internet software & services,2019,2019-12-06,2.2
+Internet software & services,2020,2020-01-04,10.0
+Internet software & services,2020,2020-01-28,1.43
+Internet software & services,2020,2020-02-09,4.0
+Internet software & services,2020,2020-04-08,11.25
+Internet software & services,2020,2020-04-30,10.0
+Internet software & services,2020,2020-05-19,2.0
+Internet software & services,2020,2020-06-10,2.2
+Internet software & services,2020,2020-06-23,1.2
+Internet software & services,2020,2020-07-04,3.0
+Internet software & services,2020,2020-10-03,2.0
+Internet software & services,2020,2020-10-11,7.75
+Internet software & services,2020,2020-10-21,3.5
+Internet software & services,2020,2020-10-27,2.1
+Internet software & services,2020,2020-11-06,5.6
+Internet software & services,2020,2020-11-16,1.5
+Internet software & services,2020,2020-11-17,9.2
+Internet software & services,2020,2020-12-15,5.5
+Internet software & services,2020,2020-12-22,5.0
+Internet software & services,2020,2020-12-31,1.4
+Internet software & services,2021,2021-01-06,1.0
+Internet software & services,2021,2021-01-12,2.35
+Internet software & services,2021,2021-01-13,4.0
+Internet software & services,2021,2021-01-14,4.0
+Internet software & services,2021,2021-01-19,8.5
+Internet software & services,2021,2021-01-26,3.0
+Internet software & services,2021,2021-01-27,2.0
+Internet software & services,2021,2021-02-06,1.1
+Internet software & services,2021,2021-02-11,2.0
+Internet software & services,2021,2021-02-22,3.5
+Internet software & services,2021,2021-02-23,2.6
+Internet software & services,2021,2021-02-25,4.7
+Internet software & services,2021,2021-03-02,1.2
+Internet software & services,2021,2021-03-03,2.6
+Internet software & services,2021,2021-03-05,1.6
+Internet software & services,2021,2021-03-06,1.2
+Internet software & services,2021,2021-03-08,1.2
+Internet software & services,2021,2021-03-11,1.0
+Internet software & services,2021,2021-03-16,1.0
+Internet software & services,2021,2021-03-18,5.0
+Internet software & services,2021,2021-03-22,2.5
+Internet software & services,2021,2021-03-23,6.5
+Internet software & services,2021,2021-03-25,3.0
+Internet software & services,2021,2021-03-30,8.6
+Internet software & services,2021,2021-04-03,3.7
+Internet software & services,2021,2021-04-05,4.4
+Internet software & services,2021,2021-04-08,1.8
+Internet software & services,2021,2021-04-10,3.0
+Internet software & services,2021,2021-04-11,1.25
+Internet software & services,2021,2021-04-14,6.1
+Internet software & services,2021,2021-04-21,3.0
+Internet software & services,2021,2021-04-27,1.6
+Internet software & services,2021,2021-04-30,1.0
+Internet software & services,2021,2021-05-04,4.9
+Internet software & services,2021,2021-05-10,1.25
+Internet software & services,2021,2021-05-20,1.53
+Internet software & services,2021,2021-05-24,4.0
+Internet software & services,2021,2021-05-25,5.6
+Internet software & services,2021,2021-06-10,2.25
+Internet software & services,2021,2021-06-12,1.0
+Internet software & services,2021,2021-06-15,4.17
+Internet software & services,2021,2021-06-16,4.0
+Internet software & services,2021,2021-06-22,1.1
+Internet software & services,2021,2021-06-23,3.5
+Internet software & services,2021,2021-06-29,4.0
+Internet software & services,2021,2021-07-01,5.0
+Internet software & services,2021,2021-07-04,1.4
+Internet software & services,2021,2021-07-10,1.0
+Internet software & services,2021,2021-07-13,5.12
+Internet software & services,2021,2021-07-19,1.0
+Internet software & services,2021,2021-07-20,16.8
+Internet software & services,2021,2021-07-28,5.25
+Internet software & services,2021,2021-07-29,3.8
+Internet software & services,2021,2021-08-04,6.4
+Internet software & services,2021,2021-08-06,1.0
+Internet software & services,2021,2021-08-07,1.4
+Internet software & services,2021,2021-08-09,2.0
+Internet software & services,2021,2021-08-11,1.0
+Internet software & services,2021,2021-08-12,1.0
+Internet software & services,2021,2021-08-16,1.3
+Internet software & services,2021,2021-08-20,2.68
+Internet software & services,2021,2021-08-31,1.2
+Internet software & services,2021,2021-09-11,1.0
+Internet software & services,2021,2021-09-14,4.2
+Internet software & services,2021,2021-09-15,3.5500000000000003
+Internet software & services,2021,2021-09-16,3.5
+Internet software & services,2021,2021-09-21,5.3
+Internet software & services,2021,2021-09-22,1.0
+Internet software & services,2021,2021-09-28,1.2
+Internet software & services,2021,2021-09-29,1.5
+Internet software & services,2021,2021-09-30,1.5
+Internet software & services,2021,2021-10-08,3.0
+Internet software & services,2021,2021-10-11,1.5
+Internet software & services,2021,2021-10-13,13.1
+Internet software & services,2021,2021-10-18,4.3100000000000005
+Internet software & services,2021,2021-10-21,2.9
+Internet software & services,2021,2021-11-03,1.4
+Internet software & services,2021,2021-11-05,3.7
+Internet software & services,2021,2021-11-08,1.1
+Internet software & services,2021,2021-11-15,1.05
+Internet software & services,2021,2021-11-17,3.0
+Internet software & services,2021,2021-11-22,2.0
+Internet software & services,2021,2021-11-23,1.0
+Internet software & services,2021,2021-11-30,1.0
+Internet software & services,2021,2021-12-01,5.7
+Internet software & services,2021,2021-12-05,3.5
+Internet software & services,2021,2021-12-10,1.65
+Internet software & services,2021,2021-12-13,1.0
+Internet software & services,2021,2021-12-16,1.95
+Internet software & services,2021,2021-12-17,1.5
+Internet software & services,2021,2021-12-20,2.5
+Internet software & services,2021,2021-12-21,1.25
+Internet software & services,2021,2021-12-22,1.85
+Internet software & services,2021,2021-12-27,1.5
+Internet software & services,2022,2022-01-02,1.3
+Internet software & services,2022,2022-01-13,1.25
+Internet software & services,2022,2022-01-18,3.2
+Internet software & services,2022,2022-01-20,3.66
+Internet software & services,2022,2022-01-24,4.2
+Internet software & services,2022,2022-01-25,1.0
+Internet software & services,2022,2022-01-26,1.0
+Internet software & services,2022,2022-01-27,1.3
+Internet software & services,2022,2022-02-02,1.7
+Internet software & services,2022,2022-02-15,3.0
+Internet software & services,2022,2022-02-16,1.5
+Internet software & services,2022,2022-02-22,3.2
+Internet software & services,2022,2022-02-24,1.0
+Internet software & services,2022,2022-02-28,1.22
+Internet software & services,2022,2022-03-03,1.94
+Internet software & services,2022,2022-03-15,2.1
+Internet software & services,2022,2022-03-16,2.3
+Internet software & services,2022,2022-03-17,1.65
+Internet software & services,2022,2022-03-22,4.0
+Internet software & services,2022,2022-03-23,2.3
+Internet software & services,2022,2022-03-30,3.5
+Internet software & services,2022,2022-04-13,2.0
+Internet software & services,2022,2022-04-21,1.75
+Internet software & services,2022,2022-04-26,4.7
+Internet software & services,2022,2022-04-28,1.36
+Internet software & services,2022,2022-05-01,17.5
+Internet software & services,2022,2022-05-18,1.0
+Internet software & services,2022,2022-06-16,1.25
+Internet software & services,2022,2022-06-21,1.0
+Internet software & services,2022,2022-06-28,3.3
+Internet software & services,2022,2022-07-15,1.5
+Internet software & services,2022,2022-07-27,1.0
+Internet software & services,2022,2022-08-02,1.0
+Internet software & services,2022,2022-10-05,1.0
+Internet software & services,2022,2022-11-01,1.4
+Internet software & services,2022,2022-11-04,1.7
+Internet software & services,2022,2022-12-01,1.2
+Internet software & services,2022,2022-12-04,1.0
+Mobile & telecommunications,2014,2014-02-12,1.0
+Mobile & telecommunications,2014,2014-03-20,1.1
+Mobile & telecommunications,2014,2014-11-11,4.0
+Mobile & telecommunications,2015,2015-01-01,1.0
+Mobile & telecommunications,2015,2015-01-16,1.73
+Mobile & telecommunications,2015,2015-02-07,1.0
+Mobile & telecommunications,2015,2015-11-24,3.0
+Mobile & telecommunications,2016,2016-06-22,2.8
+Mobile & telecommunications,2017,2017-07-08,1.0
+Mobile & telecommunications,2017,2017-09-22,1.52
+Mobile & telecommunications,2017,2017-10-17,1.4
+Mobile & telecommunications,2017,2017-11-15,1.0
+Mobile & telecommunications,2017,2017-11-24,9.0
+Mobile & telecommunications,2018,2018-05-21,1.0
+Mobile & telecommunications,2018,2018-07-18,1.0
+Mobile & telecommunications,2018,2018-10-09,4.0
+Mobile & telecommunications,2018,2018-12-07,1.0
+Mobile & telecommunications,2019,2019-04-29,1.0
+Mobile & telecommunications,2019,2019-05-08,2.0
+Mobile & telecommunications,2019,2019-08-10,2.19
+Mobile & telecommunications,2019,2019-10-29,3.3
+Mobile & telecommunications,2020,2020-01-21,2.0
+Mobile & telecommunications,2020,2020-01-26,5.0
+Mobile & telecommunications,2020,2020-05-26,3.5
+Mobile & telecommunications,2020,2020-07-30,1.0
+Mobile & telecommunications,2020,2020-08-10,3.8
+Mobile & telecommunications,2020,2020-09-23,5.99
+Mobile & telecommunications,2020,2020-11-17,1.22
+Mobile & telecommunications,2021,2021-01-24,4.0
+Mobile & telecommunications,2021,2021-04-14,1.4
+Mobile & telecommunications,2021,2021-06-01,1.3
+Mobile & telecommunications,2021,2021-06-04,1.05
+Mobile & telecommunications,2021,2021-06-30,2.75
+Mobile & telecommunications,2021,2021-08-26,1.0
+Mobile & telecommunications,2022,2022-02-14,1.4
+Mobile & telecommunications,2022,2022-03-23,1.0
+Mobile & telecommunications,2022,2022-04-26,1.5
+Mobile & telecommunications,2022,2022-07-06,1.93
+Other,2012,2012-01-12,127.0
+Other,2015,2015-07-01,1.0
+Other,2015,2015-07-13,1.15
+Other,2016,2016-08-15,1.1
+Other,2016,2016-11-05,3.24
+Other,2017,2017-08-23,2.5
+Other,2017,2017-08-25,1.07
+Other,2017,2017-10-23,1.0
+Other,2017,2017-11-05,1.0
+Other,2018,2018-02-22,2.2
+Other,2018,2018-10-22,1.32
+Other,2018,2018-10-26,31.5
+Other,2019,2019-01-07,9.28
+Other,2019,2019-02-14,1.28
+Other,2019,2019-02-21,1.0
+Other,2019,2019-04-03,2.0
+Other,2019,2019-04-16,3.3
+Other,2019,2019-05-12,3.0
+Other,2019,2019-05-16,1.0
+Other,2019,2019-11-19,1.3
+Other,2019,2019-12-06,9.08
+Other,2020,2020-03-08,4.0
+Other,2020,2020-04-28,1.0
+Other,2020,2020-05-26,2.0
+Other,2020,2020-08-17,2.31
+Other,2020,2020-09-21,1.0
+Other,2020,2020-09-29,5.0
+Other,2020,2020-11-02,2.3
+Other,2020,2020-11-23,4.2
+Other,2020,2020-12-16,1.0
+Other,2020,2020-12-24,1.3
+Other,2021,2021-02-16,1.0
+Other,2021,2021-02-18,3.0
+Other,2021,2021-03-03,1.5
+Other,2021,2021-03-25,2.4
+Other,2021,2021-03-26,1.4
+Other,2021,2021-03-29,1.8
+Other,2021,2021-04-05,1.1
+Other,2021,2021-04-17,1.55
+Other,2021,2021-04-27,1.3
+Other,2021,2021-05-11,3.5
+Other,2021,2021-05-20,6.1
+Other,2021,2021-05-24,1.0
+Other,2021,2021-05-25,2.3
+Other,2021,2021-07-28,3.7
+Other,2021,2021-08-09,2.45
+Other,2021,2021-09-23,1.5
+Other,2021,2021-10-09,1.5
+Other,2021,2021-11-16,1.0
+Other,2021,2021-12-05,1.2
+Other,2021,2021-12-16,1.0
+Other,2022,2022-02-14,1.35
+Other,2022,2022-03-05,1.0
+Other,2022,2022-03-31,1.1
+Other,2022,2022-04-01,1.5
+Other,2022,2022-04-13,1.51
+Other,2022,2022-04-19,2.4
+Other,2022,2022-04-20,5.7
+Other,2022,2022-04-21,1.0
+Other,2022,2022-04-29,1.16
+Other,2022,2022-09-03,2.5
+Other,2022,2022-09-06,1.1
+Other,2022,2022-10-05,1.48
+Other,2022,2022-12-01,2.19
+"Supply chain, logistics, & delivery",2014,2014-12-30,39.0
+"Supply chain, logistics, & delivery",2016,2016-09-11,1.2
+"Supply chain, logistics, & delivery",2017,2017-09-21,1.0
+"Supply chain, logistics, & delivery",2018,2018-01-23,1.4
+"Supply chain, logistics, & delivery",2018,2018-04-09,3.1
+"Supply chain, logistics, & delivery",2018,2018-04-30,8.0
+"Supply chain, logistics, & delivery",2018,2018-06-21,10.7
+"Supply chain, logistics, & delivery",2018,2018-08-27,1.0
+"Supply chain, logistics, & delivery",2018,2018-08-31,5.25
+"Supply chain, logistics, & delivery",2018,2018-09-21,3.8
+"Supply chain, logistics, & delivery",2018,2018-10-12,1.0
+"Supply chain, logistics, & delivery",2018,2018-11-13,1.0
+"Supply chain, logistics, & delivery",2018,2018-11-26,1.45
+"Supply chain, logistics, & delivery",2019,2019-01-14,1.17
+"Supply chain, logistics, & delivery",2019,2019-02-04,1.6
+"Supply chain, logistics, & delivery",2019,2019-02-21,10.0
+"Supply chain, logistics, & delivery",2019,2019-04-23,2.85
+"Supply chain, logistics, & delivery",2019,2019-05-06,2.0
+"Supply chain, logistics, & delivery",2019,2019-05-20,2.8
+"Supply chain, logistics, & delivery",2019,2019-11-07,1.07
+"Supply chain, logistics, & delivery",2020,2020-03-11,1.7
+"Supply chain, logistics, & delivery",2020,2020-08-10,15.0
+"Supply chain, logistics, & delivery",2020,2020-12-17,2.0
+"Supply chain, logistics, & delivery",2021,2021-01-02,1.0
+"Supply chain, logistics, & delivery",2021,2021-01-06,2.62
+"Supply chain, logistics, & delivery",2021,2021-01-07,2.75
+"Supply chain, logistics, & delivery",2021,2021-01-14,1.1
+"Supply chain, logistics, & delivery",2021,2021-01-25,2.16
+"Supply chain, logistics, & delivery",2021,2021-02-06,1.0
+"Supply chain, logistics, & delivery",2021,2021-02-12,1.2
+"Supply chain, logistics, & delivery",2021,2021-02-25,1.0
+"Supply chain, logistics, & delivery",2021,2021-03-16,4.1
+"Supply chain, logistics, & delivery",2021,2021-03-25,3.1
+"Supply chain, logistics, & delivery",2021,2021-03-26,11.8
+"Supply chain, logistics, & delivery",2021,2021-04-21,2.0
+"Supply chain, logistics, & delivery",2021,2021-06-16,1.0
+"Supply chain, logistics, & delivery",2021,2021-06-21,2.1
+"Supply chain, logistics, & delivery",2021,2021-06-29,2.5
+"Supply chain, logistics, & delivery",2021,2021-07-04,20.0
+"Supply chain, logistics, & delivery",2021,2021-07-22,2.0
+"Supply chain, logistics, & delivery",2021,2021-09-07,3.3
+"Supply chain, logistics, & delivery",2021,2021-09-13,1.3
+"Supply chain, logistics, & delivery",2021,2021-09-15,1.0
+"Supply chain, logistics, & delivery",2021,2021-09-27,1.0
+"Supply chain, logistics, & delivery",2021,2021-10-20,1.3
+"Supply chain, logistics, & delivery",2021,2021-10-21,1.0
+"Supply chain, logistics, & delivery",2021,2021-10-26,1.0
+"Supply chain, logistics, & delivery",2021,2021-12-21,1.5
+"Supply chain, logistics, & delivery",2022,2022-01-02,1.3
+"Supply chain, logistics, & delivery",2022,2022-01-21,1.25
+"Supply chain, logistics, & delivery",2022,2022-02-15,2.2
+"Supply chain, logistics, & delivery",2022,2022-02-17,5.7
+"Supply chain, logistics, & delivery",2022,2022-04-21,1.0
+"Supply chain, logistics, & delivery",2022,2022-05-07,1.0
+"Supply chain, logistics, & delivery",2022,2022-05-16,1.3
+"Supply chain, logistics, & delivery",2022,2022-05-24,1.1
+"Supply chain, logistics, & delivery",2022,2022-06-01,1.0
+"Supply chain, logistics, & delivery",2022,2022-06-14,1.0
+"Supply chain, logistics, & delivery",2022,2022-06-21,1.0
+"Supply chain, logistics, & delivery",2022,2022-07-02,1.5
+"Supply chain, logistics, & delivery",2022,2022-09-02,2.2
+Travel,2015,2015-06-17,1.5
+Travel,2017,2017-01-01,3.0
+Travel,2017,2017-01-11,1.5
+Travel,2018,2018-07-08,1.35
+Travel,2018,2018-08-11,7.25
+Travel,2018,2018-09-25,9.0
+Travel,2018,2018-10-23,1.0
+Travel,2019,2019-05-16,1.1
+Travel,2019,2019-05-23,2.0
+Travel,2019,2019-10-06,1.0
+Travel,2021,2021-03-24,5.0
+Travel,2021,2021-10-25,2.0
+Travel,2021,2021-12-21,1.0
+Travel,2022,2022-12-01,1.3
