@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 400,
+    "mark": {"type": "arc", "innerRadius": 80},
+    "data": {"url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/World_Wide-Unicorn-Company-List-donutregion2.csv"},
+    "params" : [{
+        "name" : "region_highlight",
+        "select" : {"type" : "point", "fields": ["Region"]},
+        "bind" : "legend"
+        }],
+    "encoding": {
+      "theta": {
+        "field": "Count",
+        "type": "quantitative",
+        "scale": {
+          "type": "linear",
+          "rangeMax": -4.708,
+          "rangeMin": -1.5708
+        }
+      },
+      "color": {            
+        "condition" : {
+        "param": "region_highlight" ,
+        "field":"Region",
+        "type":"nominal",
+        "scale": {"scheme":"tableau20"}
+    },
+    "value" :"lightgrey"},
+    "tooltip" : [
+        {"field": "Region", "type": "nominal"},
+        {"field": "Count", "type": "quantitative"}
+    ]
+  },"config": {"view": {"stroke": null}}
+}

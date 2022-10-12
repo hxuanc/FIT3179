@@ -451,22 +451,6 @@
         }
         
        ],
-       "transform": [
-        {
-          "type": "formula",
-          "expr": "datum['Country']",
-          "as": "stk1"
-        },
-        {
-          "type": "formula",
-          "expr": "datum.Industry",
-          "as": "stk2"
-        },
-        {
-          "type": "formula",
-          "expr": "datum.Count",
-          "as": "size"
-        }],
       "transform": [
         {
           "type": "formula",
