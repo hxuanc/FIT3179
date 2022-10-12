@@ -17,6 +17,30 @@ h1 {
     text-align: center;
 }
 
+#unicorn {
+    color: #6F38C5;
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-size: 32px;
+    text-align: center;
+}
+
+#red {
+    color: #B33030;
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-size: 48px;
+    text-align: center;
+}
+
+#darkblue {
+    color: #150050;
+    font-weight: bold;
+    font-family: 'Verdana';
+    font-size: 32px;
+    text-align: center;
+}
+
 .page {
     width: 1000px;
     background-color: white;
