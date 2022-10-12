@@ -32,14 +32,15 @@
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1 id="center">UNICORN STARTUPS</h1>
+        <h1 id="center">
+            UNICORN STARTUPS
+        </h1>
         <p>A privately help startup company valued at over US$1 billion are known as a <strong>unicorn</strong>. The term <strong>unicorn</strong> was first published in 2013, 
             which is coined by of a mythical animal “unicorn” to represent the rareness of such success. In order to be recognize as an unicorn,
             companies be innovative, creative and have a clear vision for the future growth. </p>
       </div>
     </div>
     <!-- end pure grid group -->
-    <hr style="height:1px;border-width:0;color:lightgrey;background-color:lightgray"> 
 
     <!-- pure grid group -->
     <div class="pure-g">
@@ -57,13 +58,12 @@
     </div>
     <!-- end pure grid group -->
 
+    <hr style="height:1px;border-width:0;color:lightgrey;background-color:lightgray"> 
     <!-- pure grid group - Map -->
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h2>Unicorn Startup Companies around the World</h2>
-        <p>We are able to see that there are unicorn startups located in multiple places around the world. 
-          According to statistics, tehre are more than 1000 of unicorn startups from <strong>46</strong> different countries, 
-           <strong></strong> different regions including <strong>Americas, Asia, Europe, Africa, Oceania.</strong> </p>
+        <h2>Unicorn Startups around the World</h2>
+        <p style="text-align: center;">A map that shows where Unicorns are located around the world. </p>
       </div>
     </div>
     <div class="pure-u-1-1">
@@ -71,19 +71,40 @@
     </div>
     <!-- end pure grid group -->
 
+    <hr style="height:1px;border-width:0;color:lightgrey;background-color:lightgray"> 
     <!-- pure grid group -->
     <div class="pure-g">
         <div class="pure-u-1-1">
-          <h2>Unicorn Startup by Industry</h2>
-          <p>According to statistics, unicorn startups comes from more than 15 different industries, including 
-            <strong>Fintech, Edtech, Artificial Intelligence, Mobile and Telecommunications</strong> and more. We are able to
-              observed that many of these unicorn startups comes from the Fintech and Internet Software and Services Industry.
+          <h2>Top 10 Countries and Industry</h2>
+          <p >Most of the unicorns from top 10 countries are from the industries Fintech, Internet software and services, E-commerce and direct-to-consumer,
+              and Artificial Intelligence.
             </p>
+            <div id="alluvial2" class="vis-container"></div>
         </div>
       </div>
       <div class="pure-u-1-1">
-        <div id="alluvial2" class="vis-container"></div>
-      <!-- end pure grid group -->
+        
+    <!-- end pure grid group -->
+    <hr style="height:1px;border-width:0;color:lightgrey;background-color:lightgray"> 
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Industries and Valuation</h2>
+        <p >The top 3 industries with most valuation are Internet software and services, E-commerce and direct-to-consumer. ByteDance has the highest valuation among all companies.
+            In the top 10 companies, 3 out of 10 are Fintech companies.
+        </p>
+      </div>
+      <div class="pure-u-1-3">
+ 
+          <div id="treemap" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-2">
+          <div id="lollipop" class="vis-container"></div>
+      </div>
+    </div>
+    <div class="pure-u-1-1">
+      
+    <!-- end pure grid group -->
     </div>
     
 
@@ -96,11 +117,11 @@
   </div> <!-- end page -->
 
   <script type="text/javascript">
-    var proportional_symbol_map = "json/proportional_symbol_map.json";
-    var donutIndustry = "json/donutIndustry.json";
-    var alluvial2 = "json/alluvial2.json";
-    var treemap = "json/treemap.json";
-    var lollipop = "json/lollipop.json";
+    var proportional_symbol_map = "proportional_symbol_map.json";
+    var donutIndustry = "donutIndustry.json";
+    var alluvial2 = "alluvial2.json";
+    var treemap = "treemap.json";
+    var lollipop = "lollipop.json";
 
     vegaEmbed('#map', proportional_symbol_map, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -110,15 +131,15 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#alluvial2', donutRegion, { "actions": false }).then(function (result) {
+    vegaEmbed('#alluvial2', alluvial2, { "actions": false }).then(function (result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
 
-    vegaEmbed('#treemap', donutRegion, { "actions": false }).then(function (result) {
+    vegaEmbed('#treemap', treemap, { "actions": false }).then(function (result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#lollipop', donutRegion, { "actions": false }).then(function (result) {
+    vegaEmbed('#lollipop', lollipop, { "actions": false }).then(function (result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>

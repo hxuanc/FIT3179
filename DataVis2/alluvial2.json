@@ -1,0 +1,988 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+    "height": 1000,
+    "width": 1000,
+    "data": [
+      {
+        "name": "rawData",
+        "values" : [{
+          "Country" : "Brazil",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 1
+        },{
+          "Country" : "Brazil",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 5
+        }, {
+          "Country" : "Brazil",
+          "Industry" : "Fintech",
+          "Count" : 6
+        },{
+          "Country" : "Brazil",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 1
+        }, {
+          "Country" : "Brazil",
+          "Industry" : "Other",
+          "Count" : 1
+        },{
+          "Country" : "Brazil",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 3
+        },
+        {
+          "Country" : "Canada",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 2
+        },{
+          "Country" : "Canada",
+          "Industry" : "Cybersecurity",
+          "Count" : 3
+        }, {
+          "Country" : "Canada",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 1
+        }, {
+          "Country" : "Canada",
+          "Industry" : "Edtech",
+          "Count" : 1
+        },{
+          "Country" : "Canada",
+          "Industry" : "Fintech",
+          "Count" : 3
+        },{
+          "Country" : "Canada",
+          "Industry" : "Internet software and services",
+          "Count" : 6
+        },{
+          "Country" : "Canada",
+          "Industry" : "Other",
+          "Count" : 1
+        },
+        {
+          "Country" : "Canada",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 1
+        },{
+          "Country" : "Canada",
+          "Industry" : "Travel",
+          "Count" : 1
+        },{
+          "Country" : "China",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 19
+        },{
+          "Country" : "China",
+          "Industry" : "Auto and transportation",
+          "Count" : 18
+        },{
+          "Country" : "China",
+          "Industry" : "Consumer and retail",
+          "Count" : 8
+        },{
+          "Country" : "China",
+          "Industry" : "Cybersecurity",
+          "Count" : 1
+        },{
+          "Country" : "China",
+          "Industry" : "Data management and analytics",
+          "Count" : 2
+        },{
+          "Country" : "China",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 28
+        },{
+          "Country" : "China",
+          "Industry" : "Edtech",
+          "Count" : 12
+        },{
+          "Country" : "China",
+          "Industry" : "Fintech",
+          "Count" : 8
+        },{
+          "Country" : "China",
+          "Industry" : "Hardware",
+          "Count" : 18
+        },{
+          "Country" : "China",
+          "Industry" : "Health",
+          "Count" : 11
+        },{
+          "Country" : "China",
+          "Industry" : "Internet software and services",
+          "Count" : 15
+        },{
+          "Country" : "China",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 13
+        },{
+          "Country" : "China",
+          "Industry" : "Other",
+          "Count" : 6
+        },{
+          "Country" : "China",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 11
+        },{
+          "Country" : "China",
+          "Industry" : "Travel",
+          "Count" : 3
+        },{
+          "Country" : "France",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 2
+        },{
+          "Country" : "France",
+          "Industry" : "Auto and transportation",
+          "Count" : 1
+        },{
+          "Country" : "France",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 5
+        },{
+          "Country" : "France",
+          "Industry" : "Fintech",
+          "Count" : 5
+        },{
+          "Country" : "France",
+          "Industry" : "Hardware",
+          "Count" : 2
+        },{
+          "Country" : "France",
+          "Industry" : "Health",
+          "Count" : 2
+        },{
+          "Country" : "France",
+          "Industry" : "Internet software and services",
+          "Count" : 2
+        },{
+          "Country" : "France",
+          "Industry" : "Other",
+          "Count" : 3
+        },{
+          "Country" : "France",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 1
+        },{
+          "Country" : "Germany",
+          "Industry" : "Auto and transportation",
+          "Count" : 2
+        },{
+          "Country" : "Germany",
+          "Industry" : "Customer and retail",
+          "Count" : 1
+        },{
+          "Country" : "Germany",
+          "Industry" : "Data management and analytics",
+          "Count" : 1
+        },{
+          "Country" : "Germany",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 5
+        },{
+          "Country" : "Germany",
+          "Industry" : "Fintech",
+          "Count" : 6
+        },{
+          "Country" : "Germany",
+          "Industry" : "Hardware",
+          "Count" : 1
+        },{
+          "Country" : "Germany",
+          "Industry" : "Health",
+          "Count" : 1
+        },{
+          "Country" : "Germany",
+          "Industry" : "Internet software and services",
+          "Count" : 4
+        },{
+          "Country" : "Germany",
+          "Industry" : "Other",
+          "Count" : 2
+        },
+        {
+          "Country" : "Germany",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 3
+        },{
+          "Country" : "Germany",
+          "Industry" : "Travel",
+          "Count" : 3
+        },{
+          "Country" : "India",
+          "Industry" : "Auto and transportation",
+          "Count" : 2
+        },{
+          "Country" : "India",
+          "Industry" : "Data management and analytics",
+          "Count" : 1
+        },{
+          "Country" : "India",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 17
+        },{
+          "Country" : "India",
+          "Industry" : "Edtech",
+          "Count" : 7
+        },{
+          "Country" : "India",
+          "Industry" : "Fintech",
+          "Count" : 16
+        },{
+          "Country" : "India",
+          "Industry" : "Health",
+          "Count" : 2
+        },{
+          "Country" : "India",
+          "Industry" : "Internet software and services",
+          "Count" : 13
+        },{
+          "Country" : "India",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 1
+        },{
+          "Country" : "India",
+          "Industry" : "Other",
+          "Count" : 2
+        },{
+          "Country" : "India",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 6
+        },{
+          "Country" : "India",
+          "Industry" : "Travel",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 3
+        },{
+          "Country" : "Israel",
+          "Industry" : "Cybersecurity",
+          "Count" : 7
+        },{
+          "Country" : "Israel",
+          "Industry" : "Data management and analytics",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Edtech",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Fintech",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Hardware",
+          "Count" : 2
+        },{
+          "Country" : "Israel",
+          "Industry" : "Health",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Internet software and services",
+          "Count" : 2
+        },{
+          "Country" : "Israel",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Other",
+          "Count" : 1
+        },{
+          "Country" : "Israel",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 2
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Auto and transportation",
+          "Count" : 1
+        }, {
+          "Country" : "South Korea",
+          "Industry" : "Consumer and retail",
+          "Count" : 1
+        },{
+          "Country" : "South Korea",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 4
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Fintech",
+          "Count" : 2
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Health",
+          "Count" : 1
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Internet software and services",
+          "Count" : 1
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 2
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Other",
+          "Count" : 1
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 1
+        },{
+          "Country" : "South Korea",
+          "Industry" : "Travel",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 2
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Auto and transportation",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Consumer and retail",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Data management and analytics",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 2
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Edtech",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Fintech",
+          "Count" : 27
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Hardware",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Health",
+          "Count" : 2
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Internet software and services",
+          "Count" : 2
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 1
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Other",
+          "Count" : 4
+        },{
+          "Country" : "United Kingdom",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 2
+        },{
+          "Country" : "United States",
+          "Industry" : "Artificial Intelligence",
+          "Count" : 52
+        },{
+          "Country" : "United States",
+          "Industry" : "Auto and transportation",
+          "Count" : 10
+        },{
+          "Country" : "United States",
+          "Industry" : "Consumer and retail",
+          "Count" : 13
+        },{
+          "Country" : "United States",
+          "Industry" : "Cybersecurity",
+          "Count" : 45
+        },{
+          "Country" : "United States",
+          "Industry" : "Data management and analytics",
+          "Count" : 35
+        },{
+          "Country" : "United States",
+          "Industry" : "E-commerce and direct-to-consumer",
+          "Count" : 26
+        },{
+          "Country" : "United States",
+          "Industry" : "Edtech",
+          "Count" : 9
+        },{
+          "Country" : "United States",
+          "Industry" : "Fintech",
+          "Count" : 127
+        },{
+          "Country" : "United States",
+          "Industry" : "Hardware",
+          "Count" : 13
+        },{
+          "Country" : "United States",
+          "Industry" : "Health",
+          "Count" : 69
+        },{
+          "Country" : "United States",
+          "Industry" : "Internet software and services",
+          "Count" : 161
+        },{
+          "Country" : "United States",
+          "Industry" : "Mobile and telecommunications",
+          "Count" : 12
+        },{
+          "Country" : "United States",
+          "Industry" : "Other",
+          "Count" : 34
+        },{
+          "Country" : "United States",
+          "Industry" : "Supply chain, logistics, and delivery",
+          "Count" : 25
+        },{
+          "Country" : "United States",
+          "Industry" : "Travel",
+          "Count" : 1
+        }
+        
+       ],
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum['Country']",
+          "as": "stk1"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.Industry",
+          "as": "stk2"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.Count",
+          "as": "size"
+        }
+      ]
+    },
+    {
+      "name": "nodes",
+      "source": "rawData",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!groupSelector || groupSelector.stk1 == datum.stk1 || groupSelector.stk2 == datum.stk2"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.stk1+datum.stk2",
+          "as": "key"
+        },
+        {
+          "type": "fold",
+          "fields": [
+            "stk1",
+            "stk2"
+          ],
+          "as": [
+            "stack",
+            "grpId"
+          ]
+        },
+        {
+          "type": "formula",
+          "expr": "datum.stack == 'stk1' ? datum.stk1+' '+datum.stk2 : datum.stk2+' '+datum.stk1",
+          "as": "sortField"
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "stack"
+          ],
+          "sort": {
+            "field": "sortField",
+            "order": "descending"
+          },
+          "field": "size"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum.y0+datum.y1)/2",
+          "as": "yc"
+        }
+      ]
+    },
+    {
+      "name": "groups",
+      "source": "nodes",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "stack",
+            "grpId"
+          ],
+          "fields": [
+            "size"
+          ],
+          "ops": [
+            "sum"
+          ],
+          "as": [
+            "total"
+          ]
+        },
+        {
+          "type": "stack",
+          "groupby": [
+            "stack"
+          ],
+          "sort": {
+            "field": "grpId",
+            "order": "descending"
+          },
+          "field": "total"
+        },
+        {
+          "type": "formula",
+          "expr": "scale('y', datum.y0)",
+          "as": "scaledY0"
+        },
+        {
+          "type": "formula",
+          "expr": "scale('y', datum.y1)",
+          "as": "scaledY1"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.stack == 'stk1'",
+          "as": "rightLabel"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.total/domain('y')[1]",
+          "as": "percentage"
+        }
+      ]
+    },
+    {
+      "name": "destinationNodes",
+      "source": "nodes",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.stack == 'stk2'"
+        }
+      ]
+    },
+    {
+      "name": "edges",
+      "source": "nodes",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.stack == 'stk1'"
+        },
+        {
+          "type": "lookup",
+          "from": "destinationNodes",
+          "key": "key",
+          "fields": [
+            "key"
+          ],
+          "as": [
+            "target"
+          ]
+        },
+        {
+          "type": "linkpath",
+          "orient": "horizontal",
+          "shape": "diagonal",
+          "sourceY": {
+            "expr": "scale('y', datum.yc)"
+          },
+          "sourceX": {
+            "expr": "scale('x', 'stk1') + bandwidth('x')"
+          },
+          "targetY": {
+            "expr": "scale('y', datum.target.yc)"
+          },
+          "targetX": {
+            "expr": "scale('x', 'stk2')"
+          }
+        },
+        {
+          "type": "formula",
+          "expr": "range('y')[0]-scale('y', datum.size)",
+          "as": "strokeWidth"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.size/domain('y')[1]",
+          "as": "percentage"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "range": "width",
+      "domain": [
+        "stk1",
+        "stk2"
+      ],
+      "paddingOuter": 0.05,
+      "paddingInner": 0.95
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "range": "height",
+      "domain": {
+        "data": "nodes",
+        "field": "y1"
+      }
+    },
+    {
+        "name": "color",
+        "type": "ordinal",
+        "range":{"scheme": "tableau20"},
+        "domain": {"data": "rawData", "fields": ["stk1", "stk2"]}
+
+    },
+    {
+      "name": "stackNames",
+      "type": "ordinal",
+      "range": [
+        "Country",
+        "Industry"
+      ],
+      "domain": [
+        "stk1",
+        "stk2"
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "domain" : false,
+      "ticks" : false,
+      "labelPadding" : 20,
+      "encode": {
+        "labels": {
+          "update": {
+            "text": {
+              "scale": "stackNames",
+              "field": "value",
+              "fontWeight" : "bold",
+              "fontSize" : 14
+            }
+          }
+        }
+      }
+    },
+    {
+      "orient": "top",
+      "scale": "x",
+      "domain" : false,
+      "ticks" : false,
+      "labelPadding" : 20,
+      "encode": {
+        "labels": {
+          "update": {
+            "text": {
+              "scale": "stackNames",
+              "field": "value",
+              "fontWeight" : "bold",
+              "fontSize" : 14
+            }
+          }
+        }
+      }
+    },
+    {
+      "orient": "left",
+      "scale": "y",
+      "labels" : false,
+      "domain" : false,
+      "ticks" : false
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "name": "edgeMark",
+      "from": {
+        "data": "edges"
+      },
+      "clip": true,
+      "encode": {
+        "update": {
+          "stroke": [
+            {
+              "test": "groupSelector && groupSelector.stack=='stk1'",
+              "scale": "color",
+              "field": "stk2"
+            },
+            {
+              "scale":"color", "field":"stk1"
+            }
+          ],
+          "strokeWidth": {
+            "field": "strokeWidth"
+          },
+          "path": {
+            "field": "path"
+          },
+          "strokeOpacity": {
+            "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 0.9 : 0.3"
+          },
+          "zindex": {
+            "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
+          },
+          "tooltip": {
+            "signal": "{\"Country\": datum.stk1, \"Industry\": datum.stk2, \"Count\":format(datum.size, ',.0f')}"
+          }
+        },
+        "hover": {
+          "strokeOpacity": {
+            "value": 1
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "name": "groupMark",
+      "from": {
+        "data": "groups"
+      },
+      "encode": {
+        "enter": {
+          "fill": {
+            "scale": "color", 
+            "field" : "grpId"
+          },
+          "width": {
+            "scale": "x",
+            "band": 1
+          }
+        },
+        "update": {
+          "x": {
+            "scale": "x",
+            "field": "stack"
+          },
+          "y": {
+            "field": "scaledY0"
+          },
+          "y2": {
+            "field": "scaledY1"
+          },
+          "fillOpacity": {
+            "value": 0.8
+          },
+          "tooltip": {
+            "signal": "datum.grpId + ' has count of ' + format(datum.total, ',.0f')"
+          }
+        },
+        "hover": {
+          "fillOpacity": {
+            "value": 1
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "groups"
+      },
+      "interactive": false,
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "scale('x', datum.stack) + (datum.rightLabel ? bandwidth('x') + 8 : -8)"
+          },
+          "yc": {
+            "signal": "(datum.scaledY0 + datum.scaledY1)/2"
+          },
+          "align": {
+            "signal": "datum.rightLabel ? 'left' : 'right'"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "text": {
+            "signal": "abs(datum.scaledY0-datum.scaledY1) > 13 ? datum.grpId : ''"
+          }
+        }
+      }
+    },
+    {
+      "type": "group",
+      "data": [
+        {
+          "name": "dataForShowAll",
+          "values": [
+            {}
+          ],
+          "transform": [
+            {
+              "type": "filter",
+              "expr": "groupSelector"
+            }
+          ]
+        }
+      ],
+      "encode": {
+        "enter": {
+          "xc": {
+            "signal": "width/2"
+          },
+          "y": {
+            "value": 30
+          },
+          "width": {
+            "value": 80
+          },
+          "height": {
+            "value": 30
+          }
+        }
+      },
+      "marks": [
+        {
+          "type": "group",
+          "name": "groupReset",
+          "from": {
+            "data": "dataForShowAll"
+          },
+          "encode": {
+            "enter": {
+              "cornerRadius": {
+                "value": 6
+              },
+              "fill": {
+                "value": "#f5f5f5"
+              },
+              "stroke": {
+                "value": "#c1c1c1"
+              },
+              "strokeWidth": {
+                "value": 2
+              },
+              "height": {
+                "field": {
+                  "group": "height"
+                }
+              },
+              "width": {
+                "field": {
+                  "group": "width"
+                }
+              }
+            },
+            "update": {
+              "opacity": {
+                "value": 1
+              }
+            },
+            "hover": {
+              "opacity": {
+                "value": 0.7
+              }
+            }
+          },
+          "marks": [
+            {
+              "type": "text",
+              "interactive": false,
+              "encode": {
+                "enter": {
+                  "xc": {
+                    "field": {
+                      "group": "width"
+                    },
+                    "mult": 0.5
+                  },
+                  "yc": {
+                    "field": {
+                      "group": "height"
+                    },
+                    "mult": 0.5,
+                    "offset": 2
+                  },
+                  "align": {
+                    "value": "center"
+                  },
+                  "baseline": {
+                    "value": "middle"
+                  },
+                  "fontWeight": {
+                    "value": "bold"
+                  },
+                  "text": {
+                    "value": "Show All"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "groupHover",
+      "value": {},
+      "on": [
+        {
+          "events": "@groupMark:mouseover",
+          "update": "{stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}"
+        },
+        {
+          "events": "mouseout",
+          "update": "{}"
+        }
+      ]
+    },
+    {
+      "name": "groupSelector",
+      "value": false,
+      "on": [
+        {
+          "events": "@groupMark:click!",
+          "update": "{stack:datum.stack, stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}"
+        },
+        {
+          "events": [
+            {
+              "type": "click",
+              "markname": "groupReset"
+            },
+            {
+              "type": "dblclick"
+            }
+          ],
+          "update": "false"
+        }
+      ]
+    }
+  ]
+  }
+  
+  
+  
