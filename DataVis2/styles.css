@@ -17,6 +17,12 @@ h1 {
     text-align: center;
 }
 
+#unicornp {
+    color: #6F38C5;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 #unicorn {
     color: #6F38C5;
     font-weight: bold;
