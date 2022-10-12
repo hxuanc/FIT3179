@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Unicorn Startups</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+
+</head>
+
+
+<body>
+
+  <div class="page">
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1 id="center">Unicorn Startup Companies</h1>
+        <p>A privately help startup company valued at over US$1 billion are known as a <strong>unicorn</strong>. The term <strong>unicorn</strong> was first published in 2013, 
+          which is coined by of a mythical animal “unicorn” to represent the rareness of such success. In order to be recognize as an unicorn,
+        companies be innovative, creative and have a clear vision for the future growth. </p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Unicorn Startup Companies around the World</h2>
+        <p>We are able to see that there are unicorn startups located in multiple places around the world. 
+          According to statistics, tehre are more than 1000 of unicorn startups from <strong>46</strong> different countries, 
+           <strong>5</strong> different regions including <strong>Americas, Asia, Europe, Africa, Oceania.</strong> </p>
+      </div>
+    </div>
+    <div class="pure-u-1-1">
+      <div id="map" class="vis-container"></div>
+    </div>
+    <!-- end pure grid group -->
+    
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Date Joined by Countries and Regions</h2>
+      </div>
+      <div class="pure-u-1-2">
+        <div class="description description-left">
+        <p> Based on the visualization, we are able to see that most of the unicorn countries from around the world
+           are recognize as a unicorn in the year 2021 and 2022. Weare also able to see that the United States has more
+          than 300 unicorns acknowledge in 2021. </p>
+        </div>
+
+        <div class="description description-left">
+          <p> We can also see that United Kingdom and Germany are also the leading countries in Europe,
+            where both countries has more than 15 unicron startups in the year 2021. </p>
+          </div>
+
+          <div class="description description-left">
+            <p> In Asia, China has up to 37 unicorn startups recognized in the year 2018, and 44 unicorn startups in 2021. </p>
+            </div>        
+
+        </div>
+    <div class="pure-u-1-2">
+      <div id="vis2" class="vis-container"></div>
+    </div>
+    </div>
+    <!-- end pure grid group -->
+    
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h2>Unicorn Startup by Industry</h2>
+        <p>According to statistics, unicorn startups comes from more than 15 different industries, including 
+          <strong>Fintech, Edtech, Artificial Intelligence, Mobile and Telecommunications</strong> and more. We are able to
+            observed that many of these unicorn startups comes from the Fintech and Internet Software and Services Industry.
+          </p>
+      </div>
+    </div>
+    <div class="pure-u-1-1">
+      <div id="vis3" class="vis-container"></div>
+    </div>
+    <!-- end pure grid group -->
+
+
+
+
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var proportional_symbol_map = "proportional_symbol_map.json";
+    var donutIndustry = "donutIndustry.json";
+    var donutRegion = "donutRegion.json";
+    var alluvial2 = "alluvial2.json";
+    var treemap = "treemap.json";
+    var lollipop = "lollipop.json";
+
+    vegaEmbed('#map', proportional_symbol_map, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#donutIndustry', donutIndustry, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#donutRegion', donutRegion, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#alluvial2', donutRegion, { "actions": false }).then(function (result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+
+    vegaEmbed('#treemap', donutRegion, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#lollipop', donutRegion, { "actions": false }).then(function (result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+</body>
+
+</html>
