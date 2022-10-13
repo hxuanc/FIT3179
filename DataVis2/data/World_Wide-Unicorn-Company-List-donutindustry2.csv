@@ -1,4 +1,19 @@
 Country,Industry,Count
+All Countries,Fintech,242
+All Countries,Internet software & services,224
+All Countries,E-commerce & direct-to-consumer,106
+All Countries,Health,93
+All Countries,Artificial Intelligence,87
+All Countries,"Supply chain, logistics, & delivery",66
+All Countries,Other,65
+All Countries,Cybersecurity,58
+All Countries,Data management & analytics,45
+All Countries,Auto & transportation,39
+All Countries,Hardware,38
+All Countries,Mobile & telecommunications,38
+All Countries,Edtech,32
+All Countries,Consumer & retail,28
+All Countries,Travel,14
 Argentina,Fintech,1
 Australia,E-commerce & direct-to-consumer,1
 Australia,Fintech,2
