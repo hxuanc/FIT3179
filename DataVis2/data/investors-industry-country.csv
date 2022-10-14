@@ -1,0 +1,501 @@
+﻿Investor,Company,Country,Industry,Valuation
+Sequoia Capital China,ByteDance,China,Artificial Intelligence,140
+Softbank Group,ByteDance,China,Artificial Intelligence,140
+Tiger Global Management,SHEIN,China,E-commerce & direct-to-consumer,100
+Sequoia Capital China,SHEIN,China,E-commerce & direct-to-consumer,100
+Sequoia Capital China,Canva,Australia,Internet software & services,40
+Tiger Global Management,Checkout.com,United Kingdom,Fintech,40
+Insight Partners,Checkout.com,United Kingdom,Fintech,40
+Andreessen Horowitz,Databricks,United States,Data management & analytics,38
+Sequoia Capital,FTX,Bahamas,Fintech,32
+SoftBank Group,Fanatics,United States,E-commerce & direct-to-consumer,27
+Andreessen Horowitz,Fanatics,United States,E-commerce & direct-to-consumer,27
+Sequoia Capital China,J&T Express,Indonesia,"Supply chain, logistics, & delivery",20
+Accel,Miro,United States,Internet software & services,17.5
+Sequoia Capital,DJI Innovations,China,Hardware,15
+Accel,goPuff,United States,"Supply chain, logistics, & delivery",15
+Softbank Group,goPuff,United States,"Supply chain, logistics, & delivery",15
+Sequoia Capital China,Yuanqi Senlin,China,Consumer & retail,15
+ Lightspeed Venture Partners,Ripple,United States,Fintech,15
+Lightspeed Venture Partners,Blockchain.com,United Kingdom,Fintech,14
+Index Ventures,Plaid,United States,Fintech,13.5
+Andreessen Horowitz,OpenSea,United States,Internet software & services,13.3
+General Catalyst,Grammarly,United States,Internet software & services,13
+Andreessen Horowitz,Devoted Health,United States,Health,12.6
+Sequoia Capital,Faire,United States,Artificial Intelligence,12.59
+Tiger Global Management,JUUL Labs,United States,Consumer & retail,12
+Sequoia Capital China,Bitmain Technologies,China,Hardware,12
+Sequoia Capital China,Xingsheng Selected,China,E-commerce & direct-to-consumer,12
+Andreessen Horowitz,Deel,United States,Fintech,12
+Tiger Global Management,Getir,Turkey,"Supply chain, logistics, & delivery",11.8
+Sequoia Capital,Getir,Turkey,"Supply chain, logistics, & delivery",11.8
+Celonis,Accel,Germany,Data management & analytics,11
+Index Ventures,Figma,United States,Internet software & services,10
+Sequoia Capital China,Chehaoduo,China,E-commerce & direct-to-consumer,10
+Sequoia Capital,reddit,United States,Internet software & services,10
+Index Ventures,Notion Labs,United States,Internet software & services,10
+Softbank Group,Digital Currency Group,United States,Fintech,10
+Sequoia Capital China,HEYTEA,China,Other,9.28
+Accel,Klaviyo,United States,Internet software & services,9.2
+Andreessen Horowitz,Tanium,United States,Cybersecurity,9
+SoftBank Group,OYO Rooms,India,Travel,9
+General Catalyst,Rapyd,United Kingdom,Fintech,8.75
+SoftBank Group,Kavak,Mexico,E-commerce & direct-to-consumer,8.7
+Accel,Snyk,United States,Cybersecurity,8.6
+SoftBank Group,Nuro,United States,Auto & transportation,8.6
+Accel,Chainalysis,United States,Fintech,8.6
+Sequoia Capital China,Pony.ai,United States,Artificial Intelligence,8.5
+Tiger Global Management,FalconX,United States,Fintech,8
+Andreessen Horowitz,Dapper Labs,Canada,Internet software & services,7.6
+Accel,Hopin,United Kingdom,Internet software & services,7.75
+Accel,Netskope,United States,Cybersecurity,7.5
+Lightspeed Venture Partners,Netskope,United States,Cybersecurity,7.5
+Tiger Global Management,Razorpay,India,Fintech,7.5
+Accel,Scale AI,United States,Artificial Intelligence,7.3
+Index Ventures,Scale AI,United States,Artificial Intelligence,7.3
+Andreessen Horowitz,TripActions,United States,Travel,7.25
+Lightspeed Venture Partners,TripActions,United States,Travel,7.25
+General Catalyst,Ro,United States,Health,7
+Accel,1Password,Canada,Cybersecurity,6.8
+Sequoia Capital,Klarna,Sweden,Fintech,6.7
+Sequoia Capital China,Ziroom,China,E-commerce & direct-to-consumer,6.6
+General Catalyst,Ziroom,China,E-commerce & direct-to-consumer,6.6
+SoftBank Group,National Stock Exchange of India,India,Fintech,6.5
+SoftBank Group,Ola Cabs,India,Auto & transportation,7.5
+Sequoia Capital,Ola Cabs,India,Auto & transportation,7.5
+Accel,Doctolib,France,Health,6.4
+Insight Partners,Hinge Health,United States,Health,6.2
+Insight Partners,Wiz,Israel,Cybersecurity,6
+Sequoia Capital,Wiz,Israel,Cybersecurity,6
+Index Ventures,Wiz,Israel,Cybersecurity,6
+Insight Partners,6Sense,United States,Artificial Intelligence,5.2
+Sequoia Capital,Attentive,United States,Mobile & telecommunications,5.99
+Insight Partners,Postman,United States,Internet software & services,5.6
+Andreessen Horowitz,FiveTran,United States,Data management & analytics,5.6
+General Catalyst,FiveTran,United States,Data management & analytics,5.6
+Andreessen Horowitz,Rappi,Colombia,"Supply chain, logistics, & delivery",5.25
+Sequoia Capital,Rappi,Colombia,"Supply chain, logistics, & delivery",5.25
+Index Ventures,Collibra,Belgium,Data management & analytics,5.25
+Insight Partners,OneTrust,United States,Internet software & services,5.1
+SoftBank Group,QuintoAndar,Brazil,E-commerce & direct-to-consumer,5.1
+Sequoia Capital China,Airwallex,Australia,Fintech,5.5
+Accel,ZEPZ,United Kingdom,Fintech,5
+Insight Partners,Moon Active,Israel,Mobile & telecommunications,5
+SoftBank Group,OfBusiness,India,E-commerce & direct-to-consumer,5
+SoftBank Group,Ola Electric Mobility,India,Auto & transportation,5
+Tiger Global Management,Ola Electric Mobility,India,Auto & transportation,5
+Lightspeed Venture Partners,ShareChat,India,Internet software & services,5
+Lightspeed Venture Partners,BetterUp,United States,Internet software & services,4.7
+Insight Partners,SonarSource,Switzerland,Internet software & services,4.7
+General Catalyst,SonarSource,Switzerland,Internet software & services,4.7
+Andreessen Horowitz,Anduril,United States,Artificial Intelligence,4.6
+Accel,Checkr,United States,Internet software & services,4.6
+General Catalyst,Color,United States,Health,4.6
+Accel,Vinted,Lithuania,E-commerce & direct-to-consumer,4.53
+Insight Partners,Vinted,Lithuania,E-commerce & direct-to-consumer,4.53
+Sequoia Capital China,VIPKid,China,Edtech,4.5
+Lightspeed Venture Partners,Arctic Wolf Networks,United States,Cybersecurity,4.3
+Accel,Sorare,France,Internet software & services,4.3
+SoftBank Group,Sorare,France,Internet software & services,4.3
+Sequoia Capital China,Miaoshou Doctor,China,E-commerce & direct-to-consumer,4.25
+Lightspeed Venture Partners,ThoughtSpot,United States,Internet software & services,4.2
+Andreessen Horowitz,dbt Labs,United States,Data management & analytics,4.2
+Sequoia Capital,dbt Labs,United States,Data management & analytics,4.2
+Sequoia Capital,SSENSE,Canada,E-commerce & direct-to-consumer,4.15
+Sequoia Capital,Houzz,United States,E-commerce & direct-to-consumer,4
+Tiger Global Management,CRED,India,Fintech,4.01
+SoftBank Group,Greensill,United Kingdom,Fintech,4
+Index Ventures,Patreon,United States,Internet software & services,4
+Sequoia Capital,Zapier,United States,Internet software & services,4
+Andreessen Horowitz,Clubhouse,United States,Mobile & telecommunications,4
+Accel,BrowserStack,Ireland,Internet software & services,4
+Insight Partners,BrowserStack,Ireland,Internet software & services,4
+General Catalyst,Olive,United States,Health,4
+Lightspeed Venture Partners,Rubrik,United States,Data management & analytics,4
+Accel,Melio,United States,Fintech,4
+SoftBank Group,Vuori,United States,E-commerce & direct-to-consumer,4
+Sequoia Capital,Cerebras Systems,United States,Hardware,4
+Accel,Webflow,United States,Internet software & services,4
+Andreessen Horowitz,Yuga Labs,United States,Internet software & services,4
+Insight Partners,Abnormal Security,United States,Cybersecurity,4
+Sequoia Capital China,Medlinker,China,Health,3.92
+Accel,MessageBird,Netherlands,Mobile & telecommunications,3.8
+SoftBank Group,Cohesity,United States,Data management & analytics,3.7
+Sequoia Capital,Cohesity,United States,Data management & analytics,3.7
+Insight Partners,Papaya Global,United States,Internet software & services,3.7
+SoftBank Group,Abogen,China,Health,3.7
+Andreessen Horowitz,Whatnot,United States,E-commerce & direct-to-consumer,3.7
+Andreessen Horowitz,Applied Intuition,United States,Auto & transportation,3.6
+General Catalyst,Applied Intuition,United States,Auto & transportation,3.6
+Sequoia Capital,Rec Room,United States,Internet software & services,3.5
+Index Ventures,Rec Room,United States,Internet software & services,3.5
+General Catalyst,Commure,United States,Internet software & services,3.5
+Index Ventures,Tekion,United States,Internet software & services,3.5
+Lightspeed Venture Partners,Zapier,United States,Internet software & services,3.5
+Insight Partners,ChargeBee Technologies,United States,Fintech,3.5
+Tiger Global Management,ChargeBee Technologies,United States,Fintech,3.5
+Accel,ChargeBee Technologies,United States,Fintech,3.5
+Tiger Global Management,Flock Safety,United States,Hardware,3.5
+Insight Partners,Acronis,Switzerland,Cybersecurity,3.5
+Tiger Global Management,MoonPay,United States,Fintech,3.4
+Tiger Global Management,Upstox,India,Fintech,3.4
+Insight Partners,OwnBackup,United States,Data management & analytics,3.35
+Index Ventures,Starburst,United States,Data management & analytics,3.35
+Andreessen Horowitz,Starburst,United States,Data management & analytics,3.35
+Andreessen Horowitz,Komodo Health,United States,Health,3.3
+Sequoia Capital China,Kurly,South Korea,"Supply chain, logistics, & delivery",3.3
+Tiger Global Management,Thumbtack,United States,E-commerce & direct-to-consumer,3.2
+Sequoia Capital,Thumbtack,United States,E-commerce & direct-to-consumer,3.2
+Lightspeed Venture Partners,Innovaccer,United States,Health,3.2
+Accel,Ironclad,United States,Internet software & services,3.2
+Sequoia Capital,Ironclad,United States,Internet software & services,3.2
+Lightspeed Venture Partners,Udaan,India,"Supply chain, logistics, & delivery",3.1
+Accel,Nuvemshop,Brazil,E-commerce & direct-to-consumer,3.1
+Sequoia Capital China,Yixia,China,Mobile & telecommunications,3
+General Catalyst,Circle,United States,Fintech,3
+Accel,Circle,United States,Fintech,3
+Sequoia Capital China,Zuoyebang,China,Edtech,3
+Tiger Global Management,ActiveCampaign,United States,Internet software & services,3
+General Catalyst,Contentful,Germany,Internet software & services,3
+Lightspeed Venture Partners,Seismic,United States,Internet software & services,3
+Lightspeed Venture Partners,Grafana Labs,United States,Internet software & services,3
+Tiger Global Management,Outschool,United States,Edtech,3
+Lightspeed Venture Partners,Outschool,United States,Edtech,3
+Tiger Global Management,TradingView,United States,Fintech,3
+Insight Partners,TradingView,United States,Fintech,3
+Tiger Global Management,Groww,India,Fintech,3
+Accel,Podium,United States,Internet software & services,3
+Andreessen Horowitz,Anchorage Digital,United States,Fintech,3
+Tiger Global Management,Amber Group,Hong Kong,Fintech,3
+Andreessen Horowitz,Cross River Bank,United States,Fintech,3
+Index Ventures,Remote,United States,Fintech,3
+Sequoia Capital,Remote,United States,Fintech,3
+General Catalyst,Remote,United States,Fintech,3
+Accel,Sentry,United States,Other,3
+Andreessen Horowitz,Loft,Brazil,E-commerce & direct-to-consumer,2.9
+Accel,DriveWealth,United States,Fintech,2.85
+Index Ventures,Alan,France,Fintech,2.85
+Tiger Global Management,Meicai,China,Mobile & telecommunications,2.8
+Sequoia Capital,Zipline,United States,"Supply chain, logistics, & delivery",2.8
+Index Ventures,Dream Games,Turkey,Mobile & telecommunications,2.75
+Insight Partners,Transmit Security,Israel,Cybersecurity,2.74
+Insight Partners,Sourcegraph,United States,Internet software & services,2.62
+Insight Partners,Plume,United States,Internet software & services,2.6
+Accel,Moglix,Singapore,E-commerce & direct-to-consumer,2.6
+Sequoia Capital,Cribl,United States,Data management & analytics,2.5
+Accel,Infra.Market,India,E-commerce & direct-to-consumer,2.5
+Tiger Global Management,Infra.Market,India,E-commerce & direct-to-consumer,2.5
+General Catalyst,Aura,United States,Cybersecurity,2.5
+Accel,Vercel,United States,Internet software & services,2.5
+Accel,Sysdig,United States,Cybersecurity,2.5
+Insight Partners,Sysdig,United States,Cybersecurity,2.5
+Accel,Zetwerk,India,Internet software & services,2.68
+Tiger Global Management,Games24x7,India,Internet software & services,2.5
+Insight Partners,Coda Payments,Singapore,Fintech,2.5
+SoftBank Group,Cybereason,United States,Cybersecurity,2.44
+Insight Partners,EquipmentShare,United States,Fintech,2.41
+Sequoia Capital,Carbon,United States,Hardware,2.4
+Lightspeed Venture Partners,Exabeam,United States,Cybersecurity,2.4
+Andreessen Horowitz,Freenome,United States,Health,2.62
+SoftBank Group,Jobandtalent,Spain,Internet software & services,2.35
+Index Ventures,Motive,United States,"Supply chain, logistics, & delivery",2.85
+General Catalyst,Bowery Farming,United States,Other,2.3
+Softbank Group,Zume,United States,Consumer & retail,2.25
+Accel,Algolia,United States,Internet software & services,2.25
+Sequoia Capital,MUSINSA,South Korea,E-commerce & direct-to-consumer,2.2
+Softbank Group,Gympass,United States,Internet software & services,2.2
+Andreessen Horowitz,Dialpad,United States,Internet software & services,2.2
+Lightspeed Venture Partners,BloomReach,United States,Artificial Intelligence,2.2
+Sequoia Capital China,YITU Technology,China,Artificial Intelligence,2.17
+Tiger Global Management,Qualia,United States,Fintech,2.17
+SoftBank Group,FirstCry,India,E-commerce & direct-to-consumer,2.1
+General Catalyst,Eightfold.ai,United States,Internet software & services,2.1
+Accel,Urban Company,India,E-commerce & direct-to-consumer,2.1
+Lightspeed Venture Partners,Moveworks,United States,Artificial Intelligence,2.1
+Accel,GoCardless,United Kingdom,Fintech,2.1
+Sequoia Capital China,Tubatu.com,China,E-commerce & direct-to-consumer,2
+Index Ventures,BlaBlaCar,France,Auto & transportation,2
+Accel,BlaBlaCar,France,Auto & transportation,2
+Insight Venture Partners,BlaBlaCar,France,Auto & transportation,2
+Andreessen Horowitz,Improbable,United Kingdom,Other,1
+Softbank Group,Improbable,United Kingdom,Other,1
+Sequoia Capital China,4Paradigm,China,Artificial Intelligence,2
+Insight Partners,Kaseya,United States,Cybersecurity,2
+Sequoia Capital,Druva,United States,Data management & analytics,2
+Insight Partners,Earnix,Israel,Earnix,2
+General Catalyst,Hive,United States,Artificial Intelligence,2
+Index Ventures,KRY,Sweden,Health,2
+Accel,KRY,Sweden,Health,2
+Tiger Global Management,Kajabi,United States,Internet software & services,2
+Sequoia Capital,Ethos,United States,Fintech,2.7
+Accel,Ethos,United States,Fintech,2.7
+Accel,PayFit,United Kingdom,Fintech,2.1
+Sequoia Capital China,Beisen,China,Internet software & services,2
+Index Ventures,Iterable,United States,Internet software & services,2
+Softbank Group,Clip,Mexico,Fintech,2
+Softbank Group,Loggi,Brazil,"Supply chain, logistics, & delivery",2
+Insight Partners,MURAL,United States,Internet software & services,2
+Tiger Global Management,MURAL,United States,Internet software & services,2
+Sequoia Capital China,XtalPi,China,Artificial Intelligence,2
+Andreessen Horowitz,Divvy Homes,United States,Fintech,2
+Andreessen Horowitz,Apeel Sciences,United States,Other,2
+Sequoia Capital China,Opay,Nigeria,Fintech,2
+Accel,Misfits Market,United States,"Supply chain, logistics, & delivery",2
+Andreessen Horowitz,Magic Leap,United States,Hardware,2
+Lightspeed Venture Partners,ClickHouse,United States,Data management & analytics,2
+Insight Partners,Mynt,Philippines,Fintech,2
+Andreessen Horowitz,Everlaw,United States,Internet software & services,2
+Sequoia Capital,StarkWare,Israel,Cybersecurity,8
+Andreessen Horowitz,Netlify,United States,Internet software & services,2
+SoftBank Group,LTK,United States,Internet software & services,2
+Lightspeed Venture Partners,Dremio,United States,Data management & analytics,2
+Accel,UpGrad,India,Edtech,2.25
+Tiger Global Management,CertiK,United States,Cybersecurity,2
+Lightspeed Venture Partners,CertiK,United States,Internet software & services,2
+Sequoia Capital China,ROX Motor,China,Auto & transportation,2
+Insight Partners,Devo Technology,United States,Data management & analytics,2
+Softbank Group,Rimac Automobili,Croatia,Auto & transportation,2
+Tiger Global Management,Rokt,United States,Internet software & services,1.95
+Tiger Global Management,InVision,United States,Internet software & services,1.9
+Tiger Global Management,CoinSwitch Kuber,India,Fintech,1.9
+Lightspeed Venture Partners,Roofstock,United States,Fintech,1.94
+Sequoia Capital,thatgamecompany,United States,Internet software & services,1.94
+Softbank Group,Material Bank,United States,E-commerce & direct-to-consumer,1.9
+Sequoia Capital,Retool,United States,Internet software & services,1.85
+Insight Partners,Lightricks,Israel,Artificial Intelligence,1.8
+General Catalyst,Spinny,India,E-commerce & direct-to-consumer,1.75
+Tiger Global Management,Harry's,United States,Consumer & retail,1.7
+Tiger Global Management,PAX,United States,Consumer & retail,1.7
+Lightspeed Venture Partners,Multiverse,United Kingdom,Edtech,1.7
+General Catalyst,Multiverse,United Kingdom,Edtech,2.7
+Sequoia Capital,Front,United States,Internet software & services,1.7
+Softbank Group,Tessera Therapeutics,United States,Health,1.69
+Insight Partners,Unite Us,United States,Health,1.6
+Sequoia Capital,Unite Us,United States,Health,1.6
+Index Ventures,Productboard,United States,Internet software & services,1.7
+SoftBank Group,Spotter,United States,Fintech,1.7
+Andreessen Horowitz,Optimism,United States,Internet software & services,1.65
+General Catalyst,Transcarent,United States,Health,1.62
+Tiger Global Management,DealShare,India,E-commerce & direct-to-consumer,1.7
+Lightspeed Venture Partners,DataStax,United States,Data management & analytics,1.6
+Sequoia Capital,Verkada,United States,Cybersecurity,1.6
+Sequoia Capital,Clari,United States,Internet software & services,2.6
+Index Ventures,SafetyCulture,Australia,Internet software & services,1.6
+Tiger Global Management,SafetyCulture,Australia,Internet software & services,1.6
+Accel,Monte Carlo,United States,Artificial Intelligence,1.6
+Andreessen Horowitz,Cresta,United States,Artificial Intelligence,1.6
+Sequoia Capital,Cresta,United States,Artificial Intelligence,1.6
+Accel,Cognite,Norway,Data management & analytics,1.5
+Andreessen Horowitz,Mercury,United States,Fintech,1.6
+Insight Partners,ezCater,United States,"Supply chain, logistics, & delivery",1.6
+Sequoia Capital,Capitolis,United States,Fintech,1.6
+Index Ventures,Capitolis,United States,Fintech,2.6
+General Catalyst,Nord Security,Lithuania,Cybersecurity,1.6
+Sequoia Capital,Vanta,United States,Cybersecurity,1.6
+Sequoia Capital,Magic Eden,United States,Fintech,1.6
+Lightspeed Venture Partners,Magic Eden,United States,Fintech,2.6
+Andreessen Horowitz,Pave,United States,Internet software & services,1.6
+Sequoia Capital China,Wenheyou,China,Other,1.55
+General Catalyst,Loom,United States,Internet software & services,1.53
+Sequoia Capital,Loom,United States,Internet software & services,2.53
+Sequoia Capital,Mu Sigma,United States,Data management & analytics,1.5
+Sequoia Capital China,Changingedu,China,Edtech,1.5
+Sequoia Capital China,JOLLY Information Technology,China,E-commerce & direct-to-consumer,1.5
+SoftBank Group,Cambridge Mobile Telematics,United States,Auto & transportation,1.5
+Sequoia Capital,Strava,United States,Internet software & services,1.5
+Accel,Zenoti,United States,Internet software & services,1.5
+Tiger Global Management,Zenoti,United States,Internet software & services,2.5
+Sequoia Capital,Snapdocs,United States,Fintech,1.5
+Insight Partners,SmartRecruiters,United States,Internet software & services,1.5
+Tiger Global Management,NotCo,Chile,Consumer & retail,1.5
+Index Ventures,Culture Amp,Australia,Internet software & services,1.5
+Insight Partners,TaxBit,United States,Fintech,1.5
+Index Ventures,Persona,United States,Cybersecurity,1.5
+Index Ventures,Built,United States,Internet software & services,1.5
+Insight Partners,candy.com,United States,Internet software & services,1.5
+Softbank Group,candy.com,United States,Internet software & services,1.5
+Accel,CureFit,India,Health,1.5
+Accel,Airbyte,United States,Internet software & services,1.5
+Index Ventures,Spendesk,France,Fintech,1.5
+Accel,Veriff,Estonia,Artificial Intelligence,1.5
+Tiger Global Management,Veriff,Estonia,Artificial Intelligence,1.5
+Sequoia Capital,Athelas,United States,Health,1.5
+General Catalyst,Athelas,United States,Health,1.5
+General Catalyst,Veho,United States,"Supply chain, logistics, & delivery",1.5
+SoftBank Group,Zeta,United States,Fintech,1.5
+General Catalyst,Upside,United States,Mobile & telecommunications,1.5
+Andreessen Horowitz,Aleo,United States,Cybersecurity,1.45
+SoftBank Group,Aleo,United States,Cybersecurity,1.45
+Index Ventures,Justworks,United States,Internet software & services,1.43
+Sequoia Capital China,Valgen Medtech,China,Health,1.43
+General Catalyst,SonderMind,United States,Health,1.42
+Andreessen Horowitz,Envoy,United States,Internet software & services,1.4
+Tiger Global management,Koudai,China,E-commerce & direct-to-consumer,1.4
+Index Ventures,Kong,United States,Internet software & services,1.4
+General Catalyst,Coda,United States,Internet software & services,1.4
+Tiger Global Management,Five Star Business Finance,India,Other,1.4
+Tiger Global Management,GupShup,United States,Internet software & services,1.4
+Andreessen Horowitz,Astranis Space Technologies,United States,Mobile & telecommunications,1.4
+Lightspeed Venture Partners,Panther Labs,United States,Cybersecurity,1.4
+Lightspeed Venture Partners,Tripledot,United Kingdom,Mobile & telecommunications,1.4
+Sequoia Capital,Nimble Rx,United States,Health,1.4
+Sequoia Capital China,Klook,Hong Kong,Travel,1.35
+Index Ventures,Motorway,United Kingdom,E-commerce & direct-to-consumer,1.33
+Insight Partners,Flipboard,United States,Internet software & services,1.32
+Insight Partners,DistroKid,United States,Internet software & services,1.3
+Lightspeed Venture Partners,YugaByte,United States,Data management & analytics,1.3
+General Catalyst,CoinTracker,United States,Fintech,1.3
+Insight Partners,CredAvenue,India,Fintech,1.3
+Lightspeed Venture Partners,CredAvenue,India,Fintech,1.3
+Insight Partners,LinkTree,Australia,Internet software & services,1.3
+Index Ventures,LinkTree,Australia,Internet software & services,1.3
+Insight Partners,Island,United States,Internet software & services,1.3
+Sequoia Capital,Island,United States,Internet software & services,1.3
+Insight Partners,Optibus,Israel,"Supply chain, logistics, & delivery",1.3
+Tiger Global Management,Intercom,United States,Internet software & services,1.28
+Sequoia Capital China,Kuaikan Manhua,China,Internet software & services,1.25
+Andreessen Horowitz,Honor Technology,United States,Internet software & services,1.25
+Andreessen Horowitz,Tackle.io,United States,Internet software & services,1.25
+Tiger Global Management,Flipdish,Ireland,Internet software & services,1.25
+Sequoia Capital,CaptivateIQ,United States,Fintech,1.25
+Accel,CaptivateIQ,United States,Fintech,1.25
+General Catalyst,airSlate,United States,Internet software & services,1.25
+General Catalyst,ClassDojo,United States,Edtech,1.25
+General Catalyst,inDriver,United States,Auto & transportation,1.23
+Insight Partners,inDriver,United States,Auto & transportation,1.23
+Tiger Global Management,Zip,United States,Fintech,1.2
+Accel,Public,United States,Fintech,1.2
+Index Ventures,Pilot.com,United States,Fintech,1.2
+Sequoia Capital,Pilot.com,United States,Fintech,1.2
+Sequoia Capital China,Aibee,China,Artificial Intelligence,1
+Sequoia Capital China,SmartMore,China,Artificial Intelligence,1.2
+Index Ventures,Rohlik Group,Czech Republic,"Supply chain, logistics, & delivery",1.2
+Insight Partners,FloQast,United States,Fintech,1.2
+Accel,MindTickle,United States,Internet software & services,1.2
+Softbank Group,Oda,Norway,E-commerce & direct-to-consumer,1.2
+Lightspeed Venture Partners,Offchain Labs,United States,Internet software & services,1.2
+Insight Partners,Copado,United States,Data management & analytics,1.2
+Accel,Gem,United States,Internet software & services,1.2
+Tiger Global Management,Jokr,United States,"Supply chain, logistics, & delivery",1.2
+Tiger Global Management,SeekOut,United States,Internet software & services,1.2
+Andreessen Horowitz,Phantom,United States,Fintech,1.2
+Tiger Global Management,Nova Labs,United States,Internet software & services,1.2
+Insight Partners,Choco,Germany,E-commerce & direct-to-consumer,1.2
+Accel,Unit,United States,Fintech,1.2
+Lightspeed Venture Partners,stori,Mexico,Fintech,1.2
+Lightspeed Venture Partners,CloudBees,United States,Data management & analytics,1.15
+Sequoia Capital China,Mininglamp Technology,China,Artificial Intelligence,1.19
+Sequoia Capital China,Luoji Siwei,China,Edtech,1.18
+ Insights Partners,Rebellion Defense,United States,Artificial Intelligence,1.15
+General Catalyst,Elemy,United States,Health,1.15
+Lightspeed Venture Partners,At-Bay,United States,Fintech,1.12
+Accel,Invoca,United States,Artificial Intelligence,1.1
+Tiger Global Management,Ivalua,United States,Fintech,1.1
+Tiger Global Management,Rightway,United States,Health,1.1
+Accel,G2,United States,Internet software & services,1.1
+Lightspeed Venture Partners,People.ai,United States,Internet software & services,1.1
+Tiger Global Management,Karat,United States,Internet software & services,1.1
+Softbank Group,Enpal,Germany,Internet software & services,1.1
+Lightspeed Venture Partners,Daily Harvest,United States,E-commerce & direct-to-consumer,1.1
+General Catalyst,Fundbox,United States,Fintech,1.1
+SoftBank Group,GlobalBees,India,E-commerce & direct-to-consumer,1.1
+Insight Partners,Staffbase,Germany,Internet software & services,1.1
+General Catalyst,Chief,United States,Other,1.1
+Insight Partners,Teleport,United States,Cybersecurity,1.1
+Andreessen Horowitz,Imply Data,United States,Data management & analytics,1.1
+Andreessen Horowitz,Material Security,United States,Cybersecurity,1.1
+Sequoia Capital China,Jiuxian,China,E-commerce & direct-to-consumer,1.05
+Andreessen Horowitz,Instabase,United States,Data management & analytics,1.05
+Tiger Global Management,Sendbird,United States,Mobile & telecommunications,1.05
+Sequoia Capital,Mixpanel,United States,Internet software & services,1.05
+Andreessen Horowitz,Mixpanel,United States,Internet software & services,1.05
+Sequoia Capital China,Leap Motor,China,Auto & transportation,1.01
+Insight Partners,Perimeter 81,Israel,Cybersecurity,1
+SoftBank Group,Snapdeal,India,E-commerce & direct-to-consumer,1
+Sequoia Capital China,Mia.com,China,E-commerce & direct-to-consumer,1
+Insights Partners,SMS Assist,United States,Internet software & services,1
+Sequoia Capital China,Mobvoi,China,Consumer & retail,1
+Sequoia Capital China,WeLab,Hong Kong,Fintech,1
+Sequoia Capital China,Momenta,China,Artificial Intelligence,1
+SoftBank Group,Globality,United States,Artificial Intelligence,1
+Sequoia Capital China,Poizon,China,Mobile & telecommunications,1
+Softbank Group,Alto Pharmacy,United States,Health,1
+Lightspeed Venture Partners,Orca Bio,United States,Health,1
+Sequoia Capital,Playco,Japan,Other,1
+Insight Partners,Quantum Metric,United States,Data management & analytics,1
+SoftBank Group,MadeiraMadeira,Brazil,E-commerce & direct-to-consumer,1
+Tiger Global Management,Locus Robotics,United States,Hardware,1
+Andreessen Horowitz,Skydio,United States,"Supply chain, logistics, & delivery",1
+Accel,Skydio,United States,"Supply chain, logistics, & delivery",1
+Lightspeed Venture Partners,Aqua Security,Israel,Cybersecurity,1
+Sequoia Capital China,PatSnap,Singapore,Internet software & services,1
+Tiger Global Management,Sidecar Health,United States,Fintech,1
+Sequoia Capital China,Yunxuetang,China,Edtech,1
+Lightspeed Venture Partners,Cameo,United States,Internet software & services,1
+Accel,The Zebra,United States,E-commerce & direct-to-consumer,1
+Sequoia Capital China,Fiture,China,Health,1
+Insight Partners,Sift,United States,Artificial Intelligence,1
+Tiger Global Management,SaltPay,United Kingdom,Fintech,1
+Accel,Mux,United States,Internet software & services,1
+Andreessen Horowitz,Mux,United States,Internet software & services,1
+Andreessen Horowitz,Shift Technology,France,Artificial Intelligence,1
+Accel,Forte Labs,United States,Fintech,1.73
+Sequoia Capital,Vise,United States,Fintech,1
+Sequoia Capital China,EcoFlow,China,Hardware,1
+Insight Partners,Tractable,United Kingdom,Artificial Intelligence,1
+Insight Partners,JoyTunes,Israel,Edtech,1
+Andreessen Horowitz,Worldcoin,United States,Fintech,1
+General Catalyst,MobileCoin,United States,Fintech,1.06
+Tiger Global Management,Amperity,United States,Artificial Intelligence,1
+SoftBank Group,Pantheon Systems,United States,Internet software & services,1
+Sequoia Capital China,dMed Biopharmaceutical,China,Health,1
+Accel,BlackBuck,India,"Supply chain, logistics, & delivery",1
+Sequoia Capital,Maven Clinic,United States,Health,1
+Andreessen Horowitz,Shield AI,United States,Artificial Intelligence,1
+Sequoia Capital,PicsArt,United States,Mobile & telecommunications,1
+Insight Partners,PicsArt,United States,Mobile & telecommunications,1
+Andreessen Horowitz,Cider,Hong Kong,E-commerce & direct-to-consumer,1
+Sequoia Capital China,Agile Robots,Germany,Hardware,1
+Accel,Xendit,Indonesia,Fintech,1
+SoftBank Group,Keenon Robotics,China,"Supply chain, logistics, & delivery",1
+Accel,Vedantu,India,Edtech,1
+Tiger Global Management,Vedantu,India,Edtech,1
+Sequoia Capital,TrialSpark,United States,Health,1
+Index Ventures,Swile,France,Fintech,1
+Insight Partners,Weights & Biases,United States,Artificial Intelligence,1
+Softbank Group,CargoX,Brazil,"Supply chain, logistics, & delivery",1
+Sequoia Capital China,Tezign,China,Internet software & services,1
+Insight Partners,OpenWeb,United States,Internet software & services,1
+General Catalyst,Contrast Security,United States,Cybersecurity,1
+Andreessen Horowitz,Wrapbook,United States,Fintech,1
+Accel,Mensa Brands,India,Other,1
+General Catalyst,Heyday,United States,E-commerce & direct-to-consumer,1
+Index Ventures,Stytch,United States,Cybersecurity,1
+General Catalyst,Lessen,United States,Internet software & services,1
+General Catalyst,Clara,Mexico,Fintech,1
+Andreessen Horowitz,Anyscale,United States,Artificial Intelligence,1
+Andreessen Horowitz,SnapLogic,United States,Internet software & services,1
+General Catalyst,Cadence,United States,Health,1
+Insight Partners,Noname Security,United States,Cybersecurity,1
+Lightspeed Venture Partners,Noname Security,United States,Cybersecurity,1
+Lightspeed Venture Partners,Rothy's,United States,Consumer & retail,1
+Insight Partners,Pentera,Israel,Cybersecurity,1
+General Catalyst,Minio,United States,Data management & analytics,1
+Accel,Fever Labs,United States,Internet software & services,1
+SoftBank Group,Esusu,United States,Fintech,1
+Sequoia Capital,Watershed,United States,Internet software & services,1
+Tiger Global Management,CHEQ,United States,Cybersecurity,1
+Tiger Global Management,Scalapay,Italy,Fintech,1
+Andreessen Horowitz,Omada Health,United States,Health,1
+Tiger Global Management,Aptos,United States,Internet software & services,1
+Accel,Amagi,India,Internet software & services,1
+Insight Partners,Glia,United States,Fintech,1
+Andreessen Horowitz,RapidAPI,United States,Internet software & services,1
+Andreessen Horowitz,LayerZero Labs,United States,Internet software & services,1
+Tiger Global Management,LayerZero Labs,United States,Internet software & services,1
+Index Ventures,Taxfix,Germany,Fintech,1
+Tiger Global Management,Open,India,Fintech,1
+Tiger Global Management,Habi,Colombia,Fintech,1
+General Catalyst,Glean,United States,Internet software & services,1
+Lightspeed Venture Partners,Glean,United States,Internet software & services,1
+Accel,SingleStore,United States,Data management & analytics,1
