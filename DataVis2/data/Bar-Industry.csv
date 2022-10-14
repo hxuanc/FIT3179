@@ -1,0 +1,122 @@
+Investor,Industry,Count,Percentage
+Accel,Artificial Intelligence,4,6.25
+Accel,Auto & transportation,1,1.56
+Accel,Cybersecurity,4,6.25
+Accel,Data management & analytics,3,4.69
+Accel,E-commerce & direct-to-consumer,6,9.38
+Accel,Edtech,2,3.13
+Accel,Fintech,14,21.88
+Accel,Health,3,4.69
+Accel,Internet software & services,20,31.25
+Accel,Mobile & telecommunications,1,1.56
+Accel,Other,2,3.13
+Accel,"Supply chain, logistics, & delivery",4,6.25
+Andreessen Horowitz,Artificial Intelligence,5,9.09
+Andreessen Horowitz,Auto & transportation,1,1.82
+Andreessen Horowitz,Cybersecurity,3,5.45
+Andreessen Horowitz,Data management & analytics,6,10.91
+Andreessen Horowitz,E-commerce & direct-to-consumer,4,7.27
+Andreessen Horowitz,Fintech,8,14.55
+Andreessen Horowitz,Hardware,1,1.82
+Andreessen Horowitz,Health,4,7.27
+Andreessen Horowitz,Internet software & services,16,29.09
+Andreessen Horowitz,Mobile & telecommunications,2,3.64
+Andreessen Horowitz,Other,2,3.64
+Andreessen Horowitz,"Supply chain, logistics, & delivery",2,3.63
+Andreessen Horowitz,Travel,1,1.82
+General Catalyst,Artificial Intelligence,1,2.38
+General Catalyst,Auto & transportation,2,4.76
+General Catalyst,Cybersecurity,3,7.14
+General Catalyst,Data management & analytics,2,4.76
+General Catalyst,E-commerce & direct-to-consumer,3,7.14
+General Catalyst,Edtech,2,4.76
+General Catalyst,Fintech,7,16.67
+General Catalyst,Health,8,19.05
+General Catalyst,Internet software & services,10,23.81
+General Catalyst,Mobile & telecommunications,1,2.38
+General Catalyst,Other,2,4.76
+General Catalyst,"Supply chain, logistics, & delivery",1,2.38
+Index Ventures,Artificial Intelligence,1,3.03
+Index Ventures,Auto & transportation,1,3.03
+Index Ventures,Cybersecurity,3,9.09
+Index Ventures,Data management & analytics,2,6.06
+Index Ventures,E-commerce & direct-to-consumer,1,3.03
+Index Ventures,Fintech,8,24.24
+Index Ventures,Health,1,3.03
+Index Ventures,Internet software & services,13,39.39
+Index Ventures,Mobile & telecommunications,1,3.03
+Index Ventures,"Supply chain, logistics, & delivery",2,6.06
+Insight Partners,Artificial Intelligence,6,10.17
+Insight Partners,Auto & transportation,2,3.39
+Insight Partners,Cybersecurity,10,16.95
+Insight Partners,Data management & analytics,4,6.78
+Insight Partners,E-commerce & direct-to-consumer,2,3.39
+Insight Partners,Earnix,1,1.69
+Insight Partners,Edtech,1,1.69
+Insight Partners,Fintech,10,16.95
+Insight Partners,Health,2,3.39
+Insight Partners,Internet software & services,17,28.81
+Insight Partners,Mobile & telecommunications,2,3.39
+Insight Partners,"Supply chain, logistics, & delivery",2,3.39
+Lightspeed Venture Partners,Artificial Intelligence,2,4.88
+Lightspeed Venture Partners,Consumer & retail,1,2.44
+Lightspeed Venture Partners,Cybersecurity,6,14.63
+Lightspeed Venture Partners,Data management & analytics,6,14.63
+Lightspeed Venture Partners,E-commerce & direct-to-consumer,1,2.44
+Lightspeed Venture Partners,Edtech,2,4.88
+Lightspeed Venture Partners,Fintech,7,17.07
+Lightspeed Venture Partners,Health,2,4.88
+Lightspeed Venture Partners,Internet software & services,11,26.83
+Lightspeed Venture Partners,Mobile & telecommunications,1,2.44
+Lightspeed Venture Partners,"Supply chain, logistics, & delivery",1,2.44
+Lightspeed Venture Partners,Travel,1,2.44
+Sequoia Capital,Artificial Intelligence,2,3.77
+Sequoia Capital,Auto & transportation,1,1.89
+Sequoia Capital,Cybersecurity,4,7.55
+Sequoia Capital,Data management & analytics,5,9.43
+Sequoia Capital,E-commerce & direct-to-consumer,4,7.55
+Sequoia Capital,Fintech,10,18.87
+Sequoia Capital,Hardware,3,5.66
+Sequoia Capital,Health,5,9.43
+Sequoia Capital,Internet software & services,13,24.53
+Sequoia Capital,Mobile & telecommunications,2,3.77
+Sequoia Capital,Other,1,1.89
+Sequoia Capital,"Supply chain, logistics, & delivery",3,5.66
+Sequoia Capital China,Artificial Intelligence,9,18.37
+Sequoia Capital China,Auto & transportation,2,4.08
+Sequoia Capital China,Consumer & retail,2,4.08
+Sequoia Capital China,E-commerce & direct-to-consumer,9,18.37
+Sequoia Capital China,Edtech,5,10.2
+Sequoia Capital China,Fintech,3,6.12
+Sequoia Capital China,Hardware,3,6.12
+Sequoia Capital China,Health,4,8.16
+Sequoia Capital China,Internet software & services,5,10.2
+Sequoia Capital China,Mobile & telecommunications,2,4.08
+Sequoia Capital China,Other,2,4.08
+Sequoia Capital China,"Supply chain, logistics, & delivery",2,4.08
+Sequoia Capital China,Travel,1,2.04
+SoftBank Group,Artificial Intelligence,2,4.44
+SoftBank Group,Auto & transportation,5,11.11
+SoftBank Group,Consumer & retail,1,2.22
+SoftBank Group,Cybersecurity,2,4.44
+SoftBank Group,Data management & analytics,1,2.22
+SoftBank Group,E-commerce & direct-to-consumer,11,24.44
+SoftBank Group,Fintech,7,15.56
+SoftBank Group,Health,3,6.67
+SoftBank Group,Internet software & services,7,15.56
+SoftBank Group,Other,1,2.22
+SoftBank Group,"Supply chain, logistics, & delivery",4,8.89
+SoftBank Group,Travel,1,2.22
+Tiger Global Management,Artificial Intelligence,2,3.39
+Tiger Global Management,Auto & transportation,1,1.69
+Tiger Global Management,Consumer & retail,4,6.78
+Tiger Global Management,Cybersecurity,2,3.39
+Tiger Global Management,E-commerce & direct-to-consumer,5,8.47
+Tiger Global Management,Edtech,2,3.39
+Tiger Global Management,Fintech,19,32.2
+Tiger Global Management,Hardware,2,3.39
+Tiger Global Management,Health,1,1.69
+Tiger Global Management,Internet software & services,16,27.12
+Tiger Global Management,Mobile & telecommunications,2,3.39
+Tiger Global Management,Other,1,1.69
+Tiger Global Management,"Supply chain, logistics, & delivery",2,3.39
