@@ -48,7 +48,7 @@ h1 {
 }
 
 .page {
-    width: 1000px;
+    width:1500px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -58,6 +58,8 @@ h1 {
 .vis-container {
     width: 100%;
     align-items: center;
+    align-content: center;
+
 
 }
 
