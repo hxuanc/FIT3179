@@ -1,9 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Distribution of Investment by Industry",
     "data": { "url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/Bar-Industry.csv", 
                 "format":{"type": "csv"}},
-    "width":400,
-    "height":500,
+    "width":470,
+    "height":400,
     "encoding": {
         "y": {"field": "Investor"}
     },
@@ -24,6 +25,7 @@
                 "stack":  "normalize"
                 },
             "color": {
+                "legend":false,
                 "field":"Industry",
                 "type":"nominal",
                 "scale": {"domain" : ["Artificial Intelligence", "Auto and transportation", "Consumer and retail", "Cybersecurity", "Data management and analytics",
@@ -61,5 +63,7 @@
         }
     ],
     "config": {"view": {"stroke": null}, 
-    "background": null}
+    "axis": {"grid": false},
+    "background": "#F6F6F6",
+    "legend": {"labelFontSize":10, "labelLimit":180}}
 }

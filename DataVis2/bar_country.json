@@ -1,9 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Distribution of Investment by Country",
     "data": { "url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/Bar-Country.csv", 
                 "format":{"type": "csv"}},
-    "width":400,
-    "height":500,
+    "width":470,
+    "height":400,
     "encoding": {
         "y": {"field": "Investor"}
     },
@@ -57,5 +58,7 @@
         }
     ],
     "config": {"view": {"stroke": null}, 
-    "background": null}
+    "axis": {"grid": false},
+    "background": "#F6F6F6",
+    "legend": {"orient": "bottom"}}
 }

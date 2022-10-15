@@ -1,18 +1,29 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 500,
+    "width": 590,
+    "height": 600,
+    "title": "Top 10 Most Valued Unicorn Startups around the world",
     "description": "Minimalist Lollipop chart with conditional colouring",
     "data": {"name": "dataset",
             "url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/World_Wide_Unicorn-Company-List-lollipop.csv"},
+    
     "layer": [
-      {"params" : [{
-        "name" : "industry_highlight",
-        "select" : {"type" : "point", "fields": ["Industry"]},
-        "bind" : "legend"
-        }],
+      {"transform": [
+        {"filter" : "datum.Company== 'Checkout.com'"},
+        {"calculate": "'4 of the top 10 most valued companies are from the Fintech Industry'",
+      "as": "annotation"}
+      ],
+      "mark":{
+        "type" :"text",
+        "dx":-50,
+        "dy" : -50,
+        "fontWeight":"bold"
+      },
+      "encoding": {"text":{"field":"annotation"}
+    }},
+      {
         "description": "Lollipop Stick",
-        "mark": {"type": "bar", "width":5},
+        "mark": {"type": "bar", "width":8},
         "encoding": {
           "x": {
             "field": "Company",
@@ -23,21 +34,15 @@
             "type": "quantitative",
             "axis": {"grid": false},
             "scale":{"domain": [0,150]}
+  
           },
           "color": {
             "condition" : {
-                "param": "industry_highlight" ,
-                "field":"Industry",
-                "type":"nominal",
-                "scale": {"scheme":"tableau20"}
+
+              "test": "datum['Industry'] == 'Fintech'", 
+              "value" : "#C689C6"
             },
             "value" :"lightgrey"
-          },  "opacity": {
-            "condition": {
-              "param": "industry_highlight",
-              "value": 1
-            },
-            "value": 1
           }
         }
       },
@@ -46,26 +51,19 @@
         "mark": {
           "type": "point",
           "tooltip": true,
-          "size": 300,
+          "size": 500,
           "filled": true,
           "opacity": 1
         },
         "encoding": {
           "color": {
             "condition" : {
-                "param": "industry_highlight" ,
-                "field":"Industry",
-                "type":"nominal",
-                "scale": {"scheme":"tableau20"}
+              "test": "datum['Industry'] == 'Fintech'", 
+              "value" : "#C689C6"
             },
             "value" :"lightgrey"
-          },  "opacity": {
-            "condition": {
-              "param": "industry_highlight",
-              "value": 1
-            },
-            "value": 1
-          },
+          }
+          ,
           "x": {
             "field": "Company",
             "type": "nominal"
@@ -75,42 +73,10 @@
             "type": "quantitative"
           }
         }
-      },
-      {
-        "description": "Value label",
-        "mark": {
-          "type": "text",
-          "baseline": "top",
-          "dy": -20
-        },
-        "encoding": {
-          "color": {
-            "condition" : {
-                "param": "industry_highlight" ,
-                "field":"Industry",
-                "type":"nominal",
-                "scale": {"scheme":"tableau20"}
-            },
-            "value" :"lightgrey"
-          },  "opacity": {
-            "condition": {
-              "param": "industry_highlight",
-              "value": 1
-            },
-            "value": 1
-          },
-          "x": {
-            "field": "Company",
-            "type": "nominal"
-          },
-          "y": {
-            "field": "Valuation ($B)",
-            "type": "quantitative"
-          },
-          "text": {"field": "Company"}
-        }
+
       }
     ],
-    "config": {"view": {"stroke": null}}
+    "config": {"view": {"stroke": null}, 
+    "background": "#F6F6F6"}
 } 
     

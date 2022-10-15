@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v3.0.json",
     "height": 1000,
-    "width": 1000,
+    "width": 1400,
     "data": [
       {
         "name": "rawData",
@@ -650,10 +650,17 @@
       }
     },
     {
-        "name": "color",
-        "type": "ordinal",
-        "range":{"scheme": "tableau20"},
-        "domain": {"data": "rawData", "fields": ["stk1", "stk2"]}
+      "name": "color",
+      "type": "ordinal",
+      "range":["#417D7A", "#91C483","#FFB085", "#DF7861", "#9C3D54", "#FF96AD", "#E15FED", "#90AACB", "#005A8D", "#556FB5",
+              "#2541B2", "#3F52E3", "#7692E4" ,"#93ABD3", "#B7657B",
+              "#A799B7", "#AC66CC", "#C689C6", "#FFD372","#FE7E6D",
+              "#FFAB76", "#FFCCB3", "#E5CB9F", "#85C88A", "#357C3C"],
+      "domain": ["Brazil", "Canada", "China", "France", "Germany", "India",
+                  "Israel", "South Korea", "United Kingdom", "United States",
+                  "Artificial Intelligence", "Auto and transportation", "Consumer and retail", "Cybersecurity", "Data management and analytics",
+                  "E-commerce and direct-to-consumer", "Edtech", "Fintech", "Hardware", "Health", "Internet software and services",
+                  "Mobile and telecommunications", "Other", "Supply chain, logistics, and delivery", "Travel"]
 
     },
     {
@@ -967,6 +974,7 @@
           "events": "@groupMark:click!",
           "update": "{stack:datum.stack, stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}"
         },
+    
         {
           "events": [
             {
@@ -981,7 +989,9 @@
         }
       ]
     }
-  ]
+  ],
+  "config": {"view": {"stroke": null}, 
+  "background": null}
   }
   
   

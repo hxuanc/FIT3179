@@ -1,9 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 300,
-    "height": 300,
-    "mark": {"type": "arc", "innerRadius": 100},
+    "width": 600,
+    "height": 700,
+    "title": "Distribution of Unicorns by Industries",
     "data": {"url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/World_Wide-Unicorn-Company-List-donutindustry2.csv"},
+    
+    "mark": {"type": "arc", "innerRadius": 200},
     "params" : [{
         "name" : "country_selection",
         "bind" : {
@@ -79,5 +81,8 @@
     ]
   },
   "config": {"view": {"stroke": null}, 
-  "background": null}
+  "background": "#F6F6F6",
+  "legend": {"labelFontSize":10, "labelLimit":180}
+}
+
 }
