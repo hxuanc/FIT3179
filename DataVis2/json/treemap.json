@@ -1,26 +1,20 @@
 { "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 400,
+  "title": {"text": "Valuation Distribution in Different Industry",
+  "fontSize": 14,
+  "font": "Verdana"},
+  "width": 600,
   "height": 600,
   "padding": 5,
 
   "signals": [
     {
       "name": "method",
-      "value": "squarify",
-      "bind": {
-        "input": "select",
-        "options": [
-          "squarify",
-          "binary"
-        ]
-      }
+      "value": "squarify"
     },
     {
       "name": "ratio",
-      "value": 1.6108,
-      "bind": { "input": "range", "min": 0.2, "max": 5, "step": 0.1 }
-    }
-  ],
+      "value": 1.6108
+}],
 
   "data": [
     {
@@ -57,8 +51,10 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": { "data": "gapminder", "field": "Industry" },
-      "range": { "scheme": "tableau20"}
+      "domain": {"data" : "gapminder", "field": "Industry"},
+      "range":  ["#2541B2", "#3F52E3", "#7692E4" ,"#93ABD3", "#B7657B",
+                  "#A799B7", "#AC66CC", "#C689C6", "#FFD372","#FE7E6D",
+                  "#FFAB76", "#FFCCB3", "#E5CB9F", "#85C88A", "#357C3C"]
     },{
         "name": "size",
         "type": "ordinal",
@@ -79,13 +75,12 @@
       "from": { "data": "gapminder" },
       "encode": {
         "update": {
-          "fill": { "scale": "color", "field": "Industry", "opacity": 0.3 },
+          "fill": { "scale": "color", "field": "Industry", "opacity": 0.7},
           "x": { "field": "x0" },
           "x2": { "field": "x1" },
           "y": { "field": "y0" },
           "y2": { "field": "y1" },
-          "fillOpacity" : {"value" : 0.6}
-
+          "fillOpacity" : {"value" : 0.8}
         }
       }
     },
@@ -106,23 +101,25 @@
           "tooltip":{"signal": "{\"Industry\": datum.Industry, \"Company\": datum.Company, \"Valuation or Total Valuation ($B)\":datum['Valuation ($B)']}"}
         },
         "hover": {
-          "fill": {"scale": "color", "field": "Industry"}
+          "fill": {"scale": "color", "field": "Industry", "fillOpacity": 1}
         }
       }
     },
     {
       "type": "text",
-      "from": {"data": "leaves"},
+      "from": {"data": "gapminder"},
       "interactive": false,
       "encode": {
         "enter": {
           "font": {"value": "Arial"},
           "align": {"value": "center"},
-          "baseline": {"value": "middle"},
+          "baseline" : {"value": "top"},
           "fill": {"value": "#000"},
-          "text": {"field": "Industry"},
-          "fontSize": {"value": 12},
-          "fillOpacity": {"value": 0}
+          "text": {"field": "Company"},
+          "fontSize": {"value": 10},
+          "fontStyle": {"value": "bold"},
+          "fillOpacity": [{"test": "datum['Company'] == 'ByteDance' || datum['Company'] == 'SHEIN' || datum['Company'] == 'Canva' || datum['Company'] == 'SpaceX' || datum['Valuation ($B)'] > 140",
+                          "value": 1}, {"value": 0}]
         },
         "update": {
           "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
@@ -130,5 +127,7 @@
         }
       }
     }
-  ]
+  ],
+  "config": {"view": {"stroke": null}, 
+  "background": null}
 }

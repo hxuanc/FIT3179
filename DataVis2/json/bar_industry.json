@@ -1,0 +1,72 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Distribution of Investment by Industry",
+    "fontSize": 14,
+    "font": "Verdana"},
+    "data": { "url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/Bar-Industry.csv", 
+                "format":{"type": "csv"}},
+    "width":470,
+    "height":400,
+    "encoding": {
+        "y": {"field": "Investor"}
+    },
+    
+    "layer": [
+        
+        {
+        "mark": {"type": "bar",
+                "stroke":"black",
+                "cursor":"pointer"},
+        "params": [
+            {"name" : "highlight", "select": {"type": "point", "on":"mouseover"}}
+        ],
+        "encoding": {
+            "x": {
+                "aggregate": "sum", "field": "Count", "type":"quantitative",
+                "title": "Investment Breakdown by Industry (Percentage %)",
+                "stack":  "normalize"
+                },
+            "color": {
+                "legend":false,
+                "field":"Industry",
+                "type":"nominal",
+                "scale": {"domain" : ["Artificial Intelligence", "Auto and transportation", "Consumer and retail", "Cybersecurity", "Data management and analytics",
+                                        "E-commerce and direct-to-consumer", "Edtech", "Fintech", "Hardware", "Health", "Internet software and services",
+                                        "Mobile and telecommunications", "Other", "Supply chain, logistics, and delivery", "Travel"],
+                            "range" : ["#2541B2", "#3F52E3", "#7692E4" ,"#93ABD3", "#B7657B",
+                                        "#A799B7", "#AC66CC", "#C689C6", "#FFD372","#FE7E6D",
+                                        "#FFAB76", "#FFCCB3", "#E5CB9F", "#85C88A", "#357C3C"]}
+            },
+            "strokeWidth":{"condition":{ "param": "highlight", "empty": false,"value":2}, "value":0}
+            ,      
+            "tooltip": [{"field" : "Industry", "type": "nominal", "title": "Industry: "},
+            {"field" : "Count", "type": "quantitative", "title":"Number of Companies: "},
+            {"field" : "Percentage","type": "quantitative", "title": "Percentage of Industry (%): "}
+            ]
+            }
+        },
+        {
+        "mark": {
+            "type": "text",
+            "dx": -22
+            },
+
+        "encoding": {
+            "text": {"aggregate": "sum", "field": "Percentage"},
+            "x": {
+                "field": "Percentage", "type":"quantitative",
+                "title": "Investment Breakdown by Industry (Percentage %)",
+                "stack":  "normalize"
+                },
+            "detail":{
+                "field":"Industry"
+            },
+            "color":{"condition": {"test": "datum['Percentage'] > 15", "value":"black"},"value":null}
+        }
+        
+        }
+    ],
+    "config": {"view": {"stroke": null}, 
+    "axis": {"grid": false},
+    "background": "#F6F6F6"}
+}

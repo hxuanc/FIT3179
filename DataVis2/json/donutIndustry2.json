@@ -1,0 +1,114 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 700,
+    "title": {"text": "Distribution of Unicorns by Industries",
+    "fontSize": 14,
+    "font": "Verdana"},
+    "data": {"url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/World_Wide-Unicorn-Company-List-donutindustry2.csv"},
+
+    "params" : [{
+        "name" : "country_selection",
+        "bind" : {
+            "input" : "select",
+            "options" : [
+                "All Countries",
+                "China", "United States", "Australia", 
+                "United Kingdom", "Bahamas", "India", 
+                "Indonesia", "Turkey", "Germany", 
+                "Hong Kong", "Seychelles", "Sweden", 
+                "Mexico", "Estonia", "Canada",
+                "Netherlands", "France", "Israel", 
+                "Finland", "Colombia", "Belgium", 
+                "Brazil", "South Korea", "Denmark", 
+                "Switzerland", "Lithuania", "Austria", 
+                "Ireland", "Singapore", "Vietnam",
+                "United Arab Emirates", "Argentina", "Spain", 
+                "Japan", "Luxembourg", "Nigeria", 
+                "Philippines", "Croatia", "Senegal",
+                "Malaysia", "Bermuda", "Norway", 
+                "South Africa", "Ecuador", "Chile", 
+                "Thailand", "Czech Republic", "Italy"
+            ],
+            "labels" : [
+                "Show All",
+                "China", "United States", "Australia", 
+                "United Kingdom", "Bahamas", "India", 
+                "Indonesia", "Turkey", "Germany", 
+                "Hong Kong", "Seychelles", "Sweden", 
+                "Mexico", "Estonia", "Canada",
+                "Netherlands", "France", "Israel", 
+                "Finland", "Colombia", "Belgium", 
+                "Brazil", "South Korea", "Denmark", 
+                "Switzerland", "Lithuania", "Austria", 
+                "Ireland", "Singapore", "Vietnam",
+                "United Arab Emirates", "Argentina", "Spain", 
+                "Japan", "Luxembourg", "Nigeria", 
+                "Philippines", "Croatia", "Senegal",
+                "Malaysia", "Bermuda", "Norway", 
+                "South Africa", "Ecuador", "Chile", 
+                "Thailand", "Czech Republic", "Italy"
+            ],
+            "name": "Select Country: "
+        }
+        }
+    ],
+    "transform": [
+        {"filter" : "if(country_selection !=null, datum.Country == country_selection, datum.Country == 'All Countries')"}
+    ],
+    "encoding": {
+      "theta": {
+        "field": "Count",
+        "type": "quantitative",
+        "scale": {
+          "type": "linear"
+        },
+        "stack": true
+      },
+      "color": {
+        "field" : "Industry",
+        "type": "nominal",
+        "scale" : { "domain" : ["Artificial Intelligence", "Auto and transportation", "Consumer and retail", "Cybersecurity", "Data management and analytics",
+                                "E-commerce and direct-to-consumer", "Edtech", "Fintech", "Hardware", "Health", "Internet software and services",
+                                "Mobile and telecommunications", "Other", "Supply chain, logistics, and delivery", "Travel"],
+                    "range" : ["#2541B2", "#3F52E3", "#7692E4" ,"#93ABD3", "#B7657B",
+                                "#A799B7", "#AC66CC", "#C689C6", "#FFD372","#FE7E6D",
+                                "#FFAB76", "#FFCCB3", "#E5CB9F", "#85C88A", "#357C3C"]
+
+
+        }          
+    },
+    "tooltip" : [
+        {"field": "Industry", "type": "nominal"},
+        {"field": "Count", "type": "quantitative"}
+      ]
+    },
+    "layer": [
+      {"mark": {"type": "arc", 
+                "outerRadius": 300,
+                "innerRadius": 200}},
+      {
+        "mark":{"type": "text", "radius":350,
+       "fontStyle":"bold", "font" : "Verdana"},
+        "encoding": {
+          "text":{"field": "Industry", "type": "nominal"},
+          "fillOpacity": {"condition": {"test": "datum['Count'] == 93 || datum['Count'] == 224 || datum['Count'] == 242 || datum['Count'] == 106", "value":1}, "value":0},
+          "color":{"value":"black"}}
+        },
+
+      {
+        "mark":{"type": "text", "fontSize":22, "fontStyle":"bold", "color": "black", "font" : "Verdana"},
+        "encoding": {
+          "text":{"field": "Country", "type": "nominal"},
+          "color":{"value":"black"}
+        }
+      }
+
+      
+    ],
+  "config": {"view": {"stroke": null}, 
+  "background": "#F6F6F6",
+  "legend": {"labelFontSize":10, "labelLimit":180}
+}
+
+}

@@ -1,0 +1,74 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "Distribution of Investment by Country",
+    "fontSize": 14,
+    "font": "Verdana"},
+    "data": { "url": "https://raw.githubusercontent.com/hxuanc/FIT3179/main/DataVis2/data/Bar-Country.csv", 
+                "format":{"type": "csv"}},
+    "width":470,
+    "height":400,
+    "encoding": {
+        "y": {"field": "Investor"}
+    },
+    
+    "layer": [
+        
+        {
+        "mark": {"type": "bar",
+                "stroke":"black",
+                "cursor":"pointer"},
+        "params": [
+            {"name" : "country_highlight",
+            "select" : {"type" : "point", "fields": ["Country"]},
+            "bind" : "legend"},
+            {"name" : "highlight", "select": {"type": "point", "on":"mouseover"}}
+            
+        ],
+        "encoding": {
+            "x": {
+                "aggregate": "sum", "field": "Count", "type":"quantitative",
+                "title": "Investment Breakdown by Country (Percentage %)",
+                "stack":  "normalize"
+                },
+            "color": {
+                "field":"Country",
+                "type":"nominal",
+                "scale": {"domain" : ["China", "India", "Other", "United States"],
+                            "range": ["#FFB085","#FF96AD", "#C9CCD5", "#556FB5"]}
+            },
+            "opacity":{
+                "condition":{ "param": "country_highlight", "value":1}, "value":0.6
+            },  
+            "strokeWidth":{"condition":{ "param": "highlight", "empty": false,"value":2}, "value":0},
+            "tooltip": [{"field" : "Country", "type": "nominal", "title": "Country: "},
+            {"field" : "Count", "type": "quantitative", "title":"Number of Companies: "},
+            {"field" : "Percentage","type": "quantitative", "title": "Percentage of Country (%): "}
+            ]
+            }
+        },
+        {
+        "mark": {
+            "type": "text",
+            "dx": -15
+            },
+
+        "encoding": {
+            "text": {"aggregate": "sum", "field": "Percentage"},
+            "x": {
+                "field": "Percentage", "type":"quantitative",
+                "title": "Investment Breakdown by Country (Percentage %)",
+                "stack":  "normalize"
+                },
+            "detail":{
+                "field":"Country"
+            },
+            "color":{"condition": {"test": "datum['Percentage'] > 15", "value":"black"},"value":null}
+        }
+        
+        }
+    ],
+    "config": {"view": {"stroke": null}, 
+    "axis": {"grid": false},
+    "background": "#F6F6F6",
+    "legend": {"orient": "bottom"}}
+}
